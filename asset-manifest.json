@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/perfilReactJS/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/perfilReactJS/static/js/main.c5a7beb7.chunk.js",
-    "main.js.map": "/perfilReactJS/static/js/main.c5a7beb7.chunk.js.map",
-    "runtime-main.js": "/perfilReactJS/static/js/runtime-main.35d51639.js",
-    "runtime-main.js.map": "/perfilReactJS/static/js/runtime-main.35d51639.js.map",
-    "static/js/2.dd7b311b.chunk.js": "/perfilReactJS/static/js/2.dd7b311b.chunk.js",
-    "static/js/2.dd7b311b.chunk.js.map": "/perfilReactJS/static/js/2.dd7b311b.chunk.js.map",
-    "static/js/3.fe3fab49.chunk.js": "/perfilReactJS/static/js/3.fe3fab49.chunk.js",
-    "static/js/3.fe3fab49.chunk.js.map": "/perfilReactJS/static/js/3.fe3fab49.chunk.js.map",
+    "main.css": "/perfilReactJS/static/css/main.3ec6b1b7.chunk.css",
+    "main.js": "/perfilReactJS/static/js/main.837612f4.chunk.js",
+    "main.js.map": "/perfilReactJS/static/js/main.837612f4.chunk.js.map",
+    "runtime-main.js": "/perfilReactJS/static/js/runtime-main.649d350f.js",
+    "runtime-main.js.map": "/perfilReactJS/static/js/runtime-main.649d350f.js.map",
+    "static/css/2.d3d1b499.chunk.css": "/perfilReactJS/static/css/2.d3d1b499.chunk.css",
+    "static/js/2.73e2b650.chunk.js": "/perfilReactJS/static/js/2.73e2b650.chunk.js",
+    "static/js/2.73e2b650.chunk.js.map": "/perfilReactJS/static/js/2.73e2b650.chunk.js.map",
+    "static/js/3.c30991dd.chunk.js": "/perfilReactJS/static/js/3.c30991dd.chunk.js",
+    "static/js/3.c30991dd.chunk.js.map": "/perfilReactJS/static/js/3.c30991dd.chunk.js.map",
     "index.html": "/perfilReactJS/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/perfilReactJS/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.dd7b311b.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.dd7b311b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/perfilReactJS/static/media/logo.6ce24c58.svg"
+    "static/css/2.d3d1b499.chunk.css.map": "/perfilReactJS/static/css/2.d3d1b499.chunk.css.map",
+    "static/css/main.3ec6b1b7.chunk.css.map": "/perfilReactJS/static/css/main.3ec6b1b7.chunk.css.map",
+    "static/js/2.73e2b650.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.73e2b650.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.35d51639.js",
-    "static/js/2.dd7b311b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c5a7beb7.chunk.js"
+    "static/js/runtime-main.649d350f.js",
+    "static/css/2.d3d1b499.chunk.css",
+    "static/js/2.73e2b650.chunk.js",
+    "static/css/main.3ec6b1b7.chunk.css",
+    "static/js/main.837612f4.chunk.js"
   ]
 }
