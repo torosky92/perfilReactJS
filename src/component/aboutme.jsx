@@ -1,0 +1,17 @@
+import React from "react"
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import './css/App.css'
+import Footer from './Footer'
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
+const AboutMeProcess = () => {
+    return(
+        <div className="AboutMe">
+            <form className="container-fluid" onSubmit={(e) => e.preventDefault()}>
+                <WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName="HABLAR CON DAVID" sendButton="Enviar" message='¿En que te puedo ayudar?'/>
+                <Footer/>
+            </form>
+        </div>
+    );
+}
+export default AboutMeProcess;
