@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <footer id="footer">
             <div className="bg-light mt-3">
-                <p style={{textAlign:'center', fontSize:'20px', margin:'10px'}}>
+                <p style={{textAlign:'center', fontSize:'20px', margin:'10px', textDecorationColor:'black'}}>
                     &copy; Pagina de Perfil David Antonio Toro Medina
                 </p>
             </div>
