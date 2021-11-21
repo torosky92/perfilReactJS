@@ -2,7 +2,7 @@ import React from "react";
 import './css/showItem.css'
 const ShowItem = props => {
     return(
-        <div style={{margin:'2%', marginBottom:'70px', boxShadow:'0px 14px 80px rgba(34, 35, 58, 0.2)'}} className={props.size + " mt-5 bg-light container"}>
+        <div style={{margin:'3%', marginBottom:'70px', boxShadow:'rgba(0, 0, 0, 0.5) 0 0px 7px 2px', borderRadius:'%5', backgroundColor:'white'}} className={props.size + " mt-5 container"}>
             <div className="row">
                 <div style={props.styleBoxIcon}  className={Number(props.colorText) === 1 ? 'bg-danger container boxIcon': Number(props.colorText) === 2 ? 'bg-warning container boxIcon': Number(props.colorText) === 3 ? 'bg-success container boxIcon': "container boxIcon"}>
                     <h3 style={props.styleIcon} className="text-white boxText">{props.icon} </h3>
