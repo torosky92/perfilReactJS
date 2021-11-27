@@ -1,8 +1,40 @@
-.boxIcon {
-    border-radius: 5%;
+.boxShow {
+    width: 15%;
+    margin-left: 1rem;
+    text-align: center;
+    margin-top: 1%;
     box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px;
-    margin-top: -20px;
+    margin-bottom: 10px;
 }
+
+.boxIcon {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 10%;
+    font-size: 40px;
+}
+
 .boxText {
     text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    margin-top: 1%;
+}
+
+.boxText2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 1%;
+}
+
+.boxValue {
+    text-align: center;
+    width: 70%;
+    margin-top: 35%;
+}
+
+.boxValue2 {
+    text-align: center;
+    width: 30%;
 }

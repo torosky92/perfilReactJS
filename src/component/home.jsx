@@ -1,7 +1,7 @@
 import React from "react"
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './css/App.css'
-import Footer from './Footer'
+import Footer from './Footer.jsx'
 import WhatsAppWidget from 'react-whatsapp-widget'
 import 'react-whatsapp-widget/dist/index.css'
 const HomeProcess = () => {

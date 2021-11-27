@@ -1,31 +1,31 @@
-import React from "react"
+import React, { useState } from "react"
 import "./css/navbar.css"
 import { useLocation } from 'react-router-dom'
 import { Link } from "react-router-dom"
-import { FaHome, FaChartBar, FaChartPie, FaUserAlt } from "react-icons/fa"
+import {languajesMain} from './js/data'
 const Navbar = () => {
     const location  = useLocation()
+    const [languajes, setLanguajes] = useState(window.localStorage.getItem('languajes'))
+    const selectLanguajes = (e) => {
+        setLanguajes(e.target.value)
+        window.localStorage.setItem('languajes', e.target.value)
+    }
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div class="collapse navbar-collapse container" id="navbarNavDropdown">
-                <li>
-                    <div className={`sidebar__link ${ location.pathname === '/perfilReactJS' ? "sidebar__link active_menu_link":''}`}>
-                        <Link to="/perfilReactJS"><FaHome style={{fontSize:'40px'}}/> INICIO</Link>
+                {languajesMain.map((dato) => (<li>
+                    <div className={`sidebar__link ${ location.pathname === dato.link ? "sidebar__link active_menu_link":''}`}>
+                        <Link to={dato.link}>{dato.icon} {languajes === 'SPANISH' ? dato.titles.Spanish : dato.titles.English}</Link>
                     </div>
-                </li>
+                </li>))}
                 <li>
-                    <div className={`sidebar__link ${ location.pathname === '/perfilReactJS/Skill' ? "sidebar__link active_menu_link":''}`}>
-                        <Link to="/perfilReactJS/Skill"><FaChartPie style={{fontSize:'40px'}}/> HABILIDADES</Link>
-                    </div>
-                </li>
-                <li>
-                    <div className={`sidebar__link ${ location.pathname === '/perfilReactJS/Experience' ? "sidebar__link active_menu_link":''}`}>
-                        <Link to="/perfilReactJS/Experience"><FaChartBar style={{fontSize:'40px'}}/> EXPERIENCIA</Link>
-                    </div>
-                </li>
-                <li>
-                    <div className={`sidebar__link ${ location.pathname === '/perfilReactJS/AboutMe' ? "sidebar__link active_menu_link":''}`}>
-                        <Link to="/perfilReactJS/AboutMe"><FaUserAlt style={{fontSize:'40px'}}/>ACERCA DE MI</Link>
+                    <div className="mt-2 container">
+                        <div className="input-group input-group-lg container">
+                            <select className="input-group-select" value={languajes} onChange={selectLanguajes}>
+                                <option value='ENGLISH'>ENGLISH</option>
+                                <option value='SPANISH'>SPANISH</option>
+                            </select>
+                        </div>
                     </div>
                 </li>
             </div>

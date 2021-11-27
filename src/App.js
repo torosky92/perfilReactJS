@@ -7,6 +7,7 @@ import SkillsProcess from './component/skills.jsx'
 import ExperienceProcess from './component/experience.jsx'
 import AboutMeProcess from './component/aboutme.jsx'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+window.localStorage.setItem('languajes', 'ENGLISH')
 function App() {
   return (
     <BrowserRouter>
