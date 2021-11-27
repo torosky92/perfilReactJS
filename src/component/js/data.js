@@ -1,6 +1,18 @@
 
 import { SiMysql, SiArduino, SiAngular, SiLess, SiTypescript, SiLabview, SiSiemens } from "react-icons/si"
 import { FaHome, FaChartBar, FaChartPie, FaUserAlt, FaReact, FaCss3, FaHtml5, FaPython, FaGithubSquare, FaJs, FaBootstrap, FaSass } from "react-icons/fa"
+export const languajesWhatsapp = {
+    Spanish:{
+        company:'HABLAR CON DAVID',
+        send:'Enviar',
+        text:'¿En que te puedo ayudar?',
+    },
+    English:{
+        company:'CONTACT WITH DAVID',
+        send:'SEND',
+        text:'How I can help you?',
+    }
+}
 export const languajesFooter = {
     Spanish:'Pagina Creado Por David Antonio Toro Medina',
     English:'Page Created by David Antonio Toro Medina',
