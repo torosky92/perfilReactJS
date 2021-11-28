@@ -3,7 +3,7 @@
 }
 
 .App-link {
-  color: #09d3ac;
+  color: #35dae6;
 }
 
 .App img{
@@ -32,17 +32,6 @@
   text-align: center;
 }
 
-.App2-link {
-  color: #09d3ac;
-}
-
-.App2 img{
-  margin-top: 2px;
-  margin-bottom: 1px;
-  width: 100xp;
-  height: 100px;
-}
-
 .FormBar {
   text-align: center;
 }
@@ -54,7 +43,7 @@
 }
 
 .FormBar-link {
-  color: #09d3ac;
+  color: #35dae6;
 }
 
 .FormBar img{

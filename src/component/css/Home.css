@@ -1,0 +1,38 @@
+.Home {
+    height: 100vh;
+    width: 100%;
+    background: url('../img/homeScreen.jpg');
+    text-align: center;
+}
+
+.Home-link {
+    color: #35dae6;
+}
+
+.Home img{
+    margin-top: 5rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+    width: 15rem;
+    height: 15rem;
+}
+
+.Home h1{
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+}
+
+.Home label{
+    color: aliceblue;
+}
+
+.Home a, button{
+    color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+.Home button{
+    background: transparent;
+    border: transparent;
+}

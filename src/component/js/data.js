@@ -15,6 +15,8 @@ import xampp from '../img/xampp.png'
 import SolidWorks from '../img/solidworks.png'
 import scneider from '../img/scneider.png'
 import movavi from '../img/movavi.png'
+import PSIM from '../img/PSIM.png'
+import CadeSimu from '../img/CadeSimu.png'
 export const languagesWhatsapp = {
     Spanish:{
         company:'HABLAR CON DAVID',
@@ -219,8 +221,8 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'CADE SIMU',
-        icons:'VSC',
+        software:'CADE_SIMU',
+        icons:<img src={CadeSimu} style={{width:'100%'}} alt=""/>,
         color:'red',
         year: 2014,
         month: 8,
@@ -228,7 +230,7 @@ export const SOFTWARE = [
     },
     {
         software:'PSIM',
-        icons:'VSC',
+        icons:<img src={PSIM} style={{width:'100%'}} alt=""/>,
         color:'#3B5998',
         year: 2019,
         month: 9,
@@ -243,7 +245,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'MOVAVI EDITOR',
+        software:'MOVAVI',
         icons:<img src={movavi} style={{width:'100%'}} alt=""/>,
         color:'black',
         year: 2017,
@@ -251,7 +253,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'TIA PORTAL',
+        software:'TIA_PORTAL',
         icons:<img src={tia} style={{width:'100%'}} alt=""/>,
         color:'#34A853',
         year: 2017,
