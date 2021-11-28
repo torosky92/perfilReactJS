@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react"
-import {languajesFooter} from './js/data'
+import {languagesFooter} from './js/data'
 const Footer = () => {
-    const [languajes, setLanguajes] = useState(localStorage.getItem('languajes'))
+    const [languages, setlanguages] = useState(localStorage.getItem('languages'))
     useEffect(() => {
         window.addEventListener('change', () => {
-            setLanguajes(window.localStorage.getItem('languajes'))
+            setlanguages(window.localStorage.getItem('languages'))
         })
     }, [])
     return(
         <footer id="footer">
             <div className="bg-light mt-3">
                 <p style={{textAlign:'center', fontSize:'20px', margin:'10px'}} className="text-dark">
-                    &copy; {languajes === 'SPANISH' ? languajesFooter.Spanish : languajesFooter.English}
+                    &copy; {languages === 'SPANISH' ? languagesFooter.Spanish : languagesFooter.English}
                 </p>
             </div>
         </footer>

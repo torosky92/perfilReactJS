@@ -1,3 +1,19 @@
+.boxModal {
+    background: #232323 !important;
+    color: aliceblue;
+}
+.boxModal h1{
+    text-align: center;
+    background-color: #232323;
+}
+.boxModal li>i{
+    color: #00e1ff;
+}
+.boxModal li{
+    margin-left: 20%;
+    text-align: left;
+    color: #232323;
+}
 .boxShow {
     width: 15%;
     margin-left: 1rem;

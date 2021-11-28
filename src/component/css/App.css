@@ -82,3 +82,9 @@
 .form-group#contrasena-group::before{
   content: "\f023";
 }
+
+.Skill h1{
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+}

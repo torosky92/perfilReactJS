@@ -6,16 +6,16 @@ import HomeProcess from './component/home.jsx'
 import SkillsProcess from './component/skills.jsx'
 import ExperienceProcess from './component/experience.jsx'
 import AboutMeProcess from './component/aboutme.jsx'
-import {languajesWhatsapp} from './component/js/data'
+import {languagesWhatsapp} from './component/js/data'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import WhatsAppWidget from 'react-whatsapp-widget'
 import 'react-whatsapp-widget/dist/index.css'
-window.localStorage.setItem('languajes', 'ENGLISH')
+window.localStorage.setItem('languages', 'ENGLISH')
 function App() {
-  const [languajes, setLanguajes] = useState(localStorage.getItem('languajes'))
+  const [languages, setlanguages] = useState(localStorage.getItem('languages'))
     useEffect(() => {
         window.addEventListener('change', () => {
-            setLanguajes(window.localStorage.getItem('languajes'))
+            setlanguages(window.localStorage.getItem('languages'))
         })
     }, [])
   return (
@@ -23,10 +23,10 @@ function App() {
       <div className="Container">
         <Navbar/>
         <Routes>
-          <Route exact path="/perfilReactJS/Skill" element={<SkillsProcess languajes={languajes} Whatsapp={<WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.company : languajesWhatsapp.English.company} sendButton={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.send : languajesWhatsapp.English.send} message={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.text : languajesWhatsapp.English.text}/>}/>}/>
-          <Route exact path="/perfilReactJS/Experience" element={<ExperienceProcess languajes={languajes} Whatsapp={<WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.company : languajesWhatsapp.English.company} sendButton={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.send : languajesWhatsapp.English.send} message={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.text : languajesWhatsapp.English.text}/>}/>}/>
-          <Route exact path="/perfilReactJS/AboutMe" element={<AboutMeProcess languajes={languajes} Whatsapp={<WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.company : languajesWhatsapp.English.company} sendButton={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.send : languajesWhatsapp.English.send} message={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.text : languajesWhatsapp.English.text}/>}/>}/>
-          <Route exact path="/perfilReactJS" element={<HomeProcess languajes={languajes} Whatsapp={<WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.company : languajesWhatsapp.English.company} sendButton={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.send : languajesWhatsapp.English.send} message={languajes === 'SPANISH' ? languajesWhatsapp.Spanish.text : languajesWhatsapp.English.text}/>}/>}/>
+          <Route exact path="/perfilReactJS/Skill" element={<SkillsProcess languages={languages} Whatsapp={<WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName={languages === 'SPANISH' ? languagesWhatsapp.Spanish.company : languagesWhatsapp.English.company} sendButton={languages === 'SPANISH' ? languagesWhatsapp.Spanish.send : languagesWhatsapp.English.send} message={languages === 'SPANISH' ? languagesWhatsapp.Spanish.text : languagesWhatsapp.English.text}/>}/>}/>
+          <Route exact path="/perfilReactJS/Experience" element={<ExperienceProcess languages={languages} Whatsapp={<WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName={languages === 'SPANISH' ? languagesWhatsapp.Spanish.company : languagesWhatsapp.English.company} sendButton={languages === 'SPANISH' ? languagesWhatsapp.Spanish.send : languagesWhatsapp.English.send} message={languages === 'SPANISH' ? languagesWhatsapp.Spanish.text : languagesWhatsapp.English.text}/>}/>}/>
+          <Route exact path="/perfilReactJS/AboutMe" element={<AboutMeProcess languages={languages} Whatsapp={<WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName={languages === 'SPANISH' ? languagesWhatsapp.Spanish.company : languagesWhatsapp.English.company} sendButton={languages === 'SPANISH' ? languagesWhatsapp.Spanish.send : languagesWhatsapp.English.send} message={languages === 'SPANISH' ? languagesWhatsapp.Spanish.text : languagesWhatsapp.English.text}/>}/>}/>
+          <Route exact path="/perfilReactJS" element={<HomeProcess languages={languages} Whatsapp={<WhatsAppWidget phoneNumber='573008850830' textReplyTime="" companyName={languages === 'SPANISH' ? languagesWhatsapp.Spanish.company : languagesWhatsapp.English.company} sendButton={languages === 'SPANISH' ? languagesWhatsapp.Spanish.send : languagesWhatsapp.English.send} message={languages === 'SPANISH' ? languagesWhatsapp.Spanish.text : languagesWhatsapp.English.text}/>}/>}/>
         </Routes>
       </div>
     </BrowserRouter>
