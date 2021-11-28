@@ -25,6 +25,7 @@ const HomeProcess = props => {
                         )}>{dato.icon}</button>)}
                 <Toaster position="bottom-right"/>
             </form>
+            {props.whatsapp}
         </div>
     );
 }

@@ -25,12 +25,12 @@ function App() {
       <div className="Container">
         <Navbar/>
         <Routes>
-          <Route exact path="/perfilReactJS/Skill" element={<SkillsProcess languages={languages}/>}/>
-          <Route exact path="/perfilReactJS/Experience" element={<ExperienceProcess languages={languages}/>}/>
-          <Route exact path="/perfilReactJS/AboutMe" element={<AboutMeProcess languages={languages}/>}/>
-          <Route exact path="/perfilReactJS" element={<HomeProcess languages={languages} />}/>
+          <Route exact path="/perfilReactJS/Skill" element={<SkillsProcess languages={languages} />}/>
+          <Route exact path="/perfilReactJS/Experience" element={<ExperienceProcess languages={languages} />}/>
+          <Route exact path="/perfilReactJS/AboutMe" element={<AboutMeProcess languages={languages} />}/>
+          <Route exact path="/perfilReactJS" element={<HomeProcess languages={languages} whatsapp={<WhatsAppWidget phoneNumber={HomeInformation.Whatsapp} textReplyTime="" companyName={languages === 'SPANISH' ? languagesWhatsapp.Spanish.company : languagesWhatsapp.English.company} sendButton={languages === 'SPANISH' ? languagesWhatsapp.Spanish.send : languagesWhatsapp.English.send} message={languages === 'SPANISH' ? languagesWhatsapp.Spanish.text : languagesWhatsapp.English.text}/>}/>}/>
         </Routes>
-        <WhatsAppWidget phoneNumber={HomeInformation.Whatsapp} textReplyTime="" companyName={languages === 'SPANISH' ? languagesWhatsapp.Spanish.company : languagesWhatsapp.English.company} sendButton={languages === 'SPANISH' ? languagesWhatsapp.Spanish.send : languagesWhatsapp.English.send} message={languages === 'SPANISH' ? languagesWhatsapp.Spanish.text : languagesWhatsapp.English.text}/>
+        
         <Footer/>
       </div>
     </BrowserRouter>
