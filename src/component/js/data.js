@@ -1,6 +1,6 @@
 
-import { SiMysql, SiArduino, SiAngular, SiLess, SiTypescript, SiLabview, SiSiemens, SiMitsubishi, SiMongodb, SiLinux, SiWindows, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoftword, SiMicrosoftvisio, SiVisualstudiocode } from "react-icons/si"
-import { FaHome, FaChartBar, FaChartPie, FaUserAlt, FaReact, FaCss3, FaHtml5, FaPython, FaGithubSquare, FaJs, FaBootstrap, FaSass } from "react-icons/fa"
+import { SiMysql, SiArduino, SiAngular, SiTypescript, SiLabview, SiSiemens, SiMitsubishi, SiMongodb, SiLinux, SiWindows, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoftword, SiMicrosoftvisio, SiVisualstudiocode } from "react-icons/si"
+import { FaHome, FaChartBar, FaChartPie, FaUserAlt, FaReact, FaCss3, FaHtml5, FaPython, FaGithubSquare, FaJs} from "react-icons/fa"
 import cura from '../img/cura.ico'
 import eagle from '../img/eagle.ico'
 import tia from '../img/tia.ico'
@@ -13,6 +13,8 @@ import vba from '../img/vba.png'
 import figma from '../img/figma.png'
 import xampp from '../img/xampp.png'
 import SolidWorks from '../img/solidworks.png'
+import scneider from '../img/scneider.png'
+import movavi from '../img/movavi.png'
 export const languagesWhatsapp = {
     Spanish:{
         company:'HABLAR CON DAVID',
@@ -65,7 +67,7 @@ export const languagesMain = [
 ]
 export const SOFTWARE = [
     {
-        software:'Visual Studio Code',
+        software:'VSC',
         icons:<SiVisualstudiocode/>,
         color:'#00A1F1',
         year: 2019,
@@ -73,15 +75,15 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'SolidWorks',
+        software:'SOLIDWORKS',
         icons:<img src={SolidWorks} style={{width:'100%'}} alt=""/>,
         color:'black',
-        year: 2013,
-        month: 1,
+        year: 2014,
+        month: 4,
         day: 1,
     },
     {
-        software:'EAGLE AUTODESK',
+        software:'EAGLE',
         icons:<img src={eagle} style={{width:'100%'}} alt=""/>,
         color:'#006699',
         year: 2016,
@@ -113,7 +115,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'Ultimaker Cura',
+        software:'CURA',
         icons:<img src={cura} style={{width:'100%'}} alt=""/>,
         color:'#000080',
         year: 2019,
@@ -125,11 +127,11 @@ export const SOFTWARE = [
         icons:<img src={figma} style={{width:'100%'}} alt=""/>,
         color:'black',
         year: 2020,
-        month: 3,
+        month: 11,
         day: 1,
     },
     {
-        software:'MICROSOFT EXCEL',
+        software:'EXCEL',
         icons:<SiMicrosoftexcel/>,
         color:'green',
         year: 2005,
@@ -145,7 +147,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'MICROSOFT VISIO',
+        software:'VISIO',
         icons:<SiMicrosoftvisio/>,
         color:'#000080',
         year: 2015,
@@ -153,7 +155,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'MICROSOFT POWERPOINT',
+        software:'POWERPOINT',
         icons:<SiMicrosoftpowerpoint/>,
         color:'#F65314',
         year: 2005,
@@ -161,7 +163,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'MICROSOFT WORD',
+        software:'WORD',
         icons:<SiMicrosoftword/>,
         color:'#146EB4',
         year: 2005,
@@ -177,7 +179,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'LabView',
+        software:'LABVIEW',
         icons:<SiLabview/>,
         color:'Orange',
         year: 2015,
@@ -185,7 +187,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'QT DESIGNER',
+        software:'DESIGNER',
         icons:<img src={qtdesigner} style={{width:'100%'}} alt=""/>,
         color:'#34A853',
         year: 2018,
@@ -193,7 +195,7 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'Matlab',
+        software:'MATLAB',
         icons:<img src={matlab} style={{width:'100%'}} alt=""/>,
         color:'#F9D341',
         year: 2015,
@@ -202,23 +204,7 @@ export const SOFTWARE = [
     },
     {
         software:'CANDLE',
-        icons:'VSC',
-        color:'#3B5998',
-        year: 2020,
-        month: 3,
-        day: 1,
-    },
-    {
-        software:'LaserEngrave',
-        icons:'VSC',
-        color:'#3B5998',
-        year: 2020,
-        month: 3,
-        day: 1,
-    },
-    {
-        software:'F-ENGRAVE',
-        icons:'VSC',
+        icons:'CNC',
         color:'#3B5998',
         year: 2020,
         month: 3,
@@ -226,10 +212,10 @@ export const SOFTWARE = [
     },
     {
         software:'SoMachineBasic',
-        icons:'VSC',
-        color:'',
-        year: 2017,
-        month: 3,
+        icons:<img src={scneider} style={{width:'100%'}} alt=""/>,
+        color:'#34A853',
+        year: 2016,
+        month: 9,
         day: 1,
     },
     {
@@ -238,14 +224,6 @@ export const SOFTWARE = [
         color:'red',
         year: 2014,
         month: 8,
-        day: 1,
-    },
-    {
-        software:'NEXTION',
-        icons:'VSC',
-        color:'#3B5998',
-        year: 2017,
-        month: 3,
         day: 1,
     },
     {
@@ -266,7 +244,7 @@ export const SOFTWARE = [
     },
     {
         software:'MOVAVI EDITOR',
-        icons:'VSC',
+        icons:<img src={movavi} style={{width:'100%'}} alt=""/>,
         color:'black',
         year: 2017,
         month: 3,
@@ -344,6 +322,12 @@ export const ProgrammingLanguages = [
                 day: 1,
             },
             {
+                library: 'SQLALCHEMY',
+                year: 2019,
+                month: 8,
+                day: 1,
+            },
+            {
                 library: 'PANDAS',
                 year: 2018,
                 month: 5,
@@ -359,6 +343,12 @@ export const ProgrammingLanguages = [
                 library: 'PAHO - MQTT',
                 year: 2019,
                 month: 7,
+                day: 1,
+            },
+            {
+                library: 'SERIAL',
+                year: 2019,
+                month: 9,
                 day: 1,
             },
             {
@@ -399,32 +389,6 @@ export const ProgrammingLanguages = [
         day: 1,
     },
     {
-        language:'ARDUINO',
-        icons:<SiArduino/>,
-        color:'#009973',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2014,
-        month: 7,
-        day: 1,
-    },
-    {
-        language:'C++',
-        icons:<img src={cpp} style={{width:'100%'}} alt=""/>,
-        color:'#000099',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2019,
-        month: 7,
-        day: 1,
-    },
-    {
         language:'JAVASCRIPT',
         icons:<FaJs/>,
         color:'#ffcc00',
@@ -451,22 +415,130 @@ export const ProgrammingLanguages = [
         day: 1,
     },
     {
-        language:'SIEMENS',
-        icons:<SiSiemens/>,
-        color:'#34A853',
+        language:'CSS3',
+        icons:<FaCss3/>,
+        color:'#3B5998',
         level:{
             Spanish:'Intermedio',
             English:'Intermediate',
         },
         library:[
             {
-                library: 'TIA PORTAL',
-                year: 2014,
+                library: 'BOOSTRAP',
+                year: 2018,
                 month: 7,
+                day: 1,
+            },
+            {
+                library: 'SASS',
+                year: 2018,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'LESS',
+                year: 2018,
+                month: 7,
+                day: 1,
+            },
+        ],
+        year: 2018,
+        month: 7,
+        day: 1,
+    },
+    {
+        language:'HTML5',
+        icons:<FaHtml5/>,
+        color:'#F65314',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[],
+        year: 2018,
+        month: 7,
+        day: 1,
+    },
+    {
+        language:'SQL',
+        icons:<SiMysql/>,
+        color:'#3333ff',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[],
+        year: 2017,
+        month: 7,
+        day: 1,
+    },
+    {
+        language:'MONGODB',
+        icons:<SiMongodb/>,
+        color:'green',
+        level:{
+            Spanish:'Básico',
+            English:'Basic',
+        },
+        library:[],
+        year: 2020,
+        month: 7,
+        day: 1,
+    },
+    {
+        language:'ARDUINO',
+        icons:<SiArduino/>,
+        color:'#009973',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[
+            {
+                library: 'MQTT',
+                year: 2018,
+                month: 3,
+                day: 1,
+            },
+            {
+                library: 'I2C',
+                year: 2016,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'SERIAL',
+                year: 2015,
+                month: 3,
+                day: 1,
+            },
+            {
+                library: 'GSM',
+                year: 2019,
+                month: 8,
+                day: 1,
+            },
+            {
+                library: 'GPRS',
+                year: 2019,
+                month: 8,
                 day: 1,
             }
         ],
-        year: 2016,
+        year: 2014,
+        month: 7,
+        day: 1,
+    },
+    {
+        language:'C++',
+        icons:<img src={cpp} style={{width:'100%'}} alt=""/>,
+        color:'#000099',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[],
+        year: 2019,
         month: 7,
         day: 1,
     },
@@ -481,6 +553,51 @@ export const ProgrammingLanguages = [
         library:[],
         year: 2019,
         month: 9,
+        day: 1,
+    },
+    {
+        language:'GITHUB',
+        icons:<FaGithubSquare/>,
+        color:'black',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[],
+        year: 2019,
+        month: 7,
+        day: 1,
+    },
+    {
+        language:'SIEMENS',
+        icons:<SiSiemens/>,
+        color:'#34A853',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[
+            {
+                library: 'TIA PORTAL',
+                year: 2014,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'PC SIMU',
+                year: 2021,
+                month: 1,
+                day: 1,
+            },
+            {
+                library: 'MICROWIN STEPS7',
+                year: 2021,
+                month: 1,
+                day: 1,
+            }
+        ],
+        year: 2016,
+        month: 7,
         day: 1,
     },
     {
@@ -510,120 +627,56 @@ export const ProgrammingLanguages = [
         day: 1,
     },
     {
-        language:'CSS3',
-        icons:<FaCss3/>,
-        color:'#3B5998',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2018,
-        month: 7,
-        day: 1,
-    },
-    {
-        language:'HTML5',
-        icons:<FaHtml5/>,
-        color:'#F65314',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2018,
-        month: 7,
-        day: 1,
-    },
-    {
-        language:'GITHUB',
-        icons:<FaGithubSquare/>,
-        color:'black',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2019,
-        month: 7,
-        day: 1,
-    },
-    {
-        language:'BOOSTRAP',
-        icons:<FaBootstrap/>,
-        color:'#8000ff',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2018,
-        month: 7,
-        day: 1,
-    },
-    {
-        language:'SASS',
-        icons:<FaSass/>,
-        color:'#ff4db8',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2018,
-        month: 7,
-        day: 1,
-    },
-    {
-        language:'LESS',
-        icons:<SiLess/>,
-        color:'#000099',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2018,
-        month: 7,
-        day: 1,
-    },
-    {
-        language:'SQL',
-        icons:<SiMysql/>,
-        color:'#3333ff',
-        level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
-        },
-        library:[],
-        year: 2017,
-        month: 7,
-        day: 1,
-    },
-    {
-        language:'GWORKS',
+        language:'MITSUBISHI',
         icons:<SiMitsubishi/>,
         color:'red',
         level:{
             Spanish:'Intermedio',
             English:'Intermediate',
         },
-        library:[],
+        library:[
+            {
+                library: 'GWORKS',
+                year: 2015,
+                month: 8,
+                day: 1,
+            }
+        ],
         year: 2015,
         month: 8,
         day: 1,
     },
     {
-        language:'MONGODB',
-        icons:<SiMongodb/>,
-        color:'green',
+        language:'SCNEIDER',
+        icons:<img src={scneider} style={{width:'100%'}} alt=""/>,
+        color:'#34A853',
         level:{
-            Spanish:'Básico',
-            English:'Basic',
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[
+            {
+                library: 'SoMachineBasic',
+                year: 2014,
+                month: 7,
+                day: 1,
+            }
+        ],
+        year: 2016,
+        month: 7,
+        day: 1,
+    },
+    {
+        language:'CNC',
+        icons:'CNC',
+        color:'#34A853',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
         },
         library:[],
-        year: 2020,
-        month: 7,
+        year: 2018,
+        month: 11,
         day: 1,
     }
 ]
