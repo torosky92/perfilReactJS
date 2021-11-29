@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/perfilReactJS/static/css/main.20b4d00f.chunk.css",
-    "main.js": "/perfilReactJS/static/js/main.91f1df79.chunk.js",
-    "main.js.map": "/perfilReactJS/static/js/main.91f1df79.chunk.js.map",
-    "runtime-main.js": "/perfilReactJS/static/js/runtime-main.7e52d532.js",
-    "runtime-main.js.map": "/perfilReactJS/static/js/runtime-main.7e52d532.js.map",
+    "main.css": "/perfilReactJS/static/css/main.552e1fe3.chunk.css",
+    "main.js": "/perfilReactJS/static/js/main.651a6ad2.chunk.js",
+    "main.js.map": "/perfilReactJS/static/js/main.651a6ad2.chunk.js.map",
+    "runtime-main.js": "/perfilReactJS/static/js/runtime-main.02146c4c.js",
+    "runtime-main.js.map": "/perfilReactJS/static/js/runtime-main.02146c4c.js.map",
     "static/css/2.d3d1b499.chunk.css": "/perfilReactJS/static/css/2.d3d1b499.chunk.css",
-    "static/js/2.76b46c5c.chunk.js": "/perfilReactJS/static/js/2.76b46c5c.chunk.js",
-    "static/js/2.76b46c5c.chunk.js.map": "/perfilReactJS/static/js/2.76b46c5c.chunk.js.map",
-    "static/js/3.c2ce6930.chunk.js": "/perfilReactJS/static/js/3.c2ce6930.chunk.js",
-    "static/js/3.c2ce6930.chunk.js.map": "/perfilReactJS/static/js/3.c2ce6930.chunk.js.map",
+    "static/js/2.0cd97a20.chunk.js": "/perfilReactJS/static/js/2.0cd97a20.chunk.js",
+    "static/js/2.0cd97a20.chunk.js.map": "/perfilReactJS/static/js/2.0cd97a20.chunk.js.map",
+    "static/js/3.729aaf9f.chunk.js": "/perfilReactJS/static/js/3.729aaf9f.chunk.js",
+    "static/js/3.729aaf9f.chunk.js.map": "/perfilReactJS/static/js/3.729aaf9f.chunk.js.map",
     "index.html": "/perfilReactJS/index.html",
     "static/css/2.d3d1b499.chunk.css.map": "/perfilReactJS/static/css/2.d3d1b499.chunk.css.map",
-    "static/css/main.20b4d00f.chunk.css.map": "/perfilReactJS/static/css/main.20b4d00f.chunk.css.map",
-    "static/js/2.76b46c5c.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.76b46c5c.chunk.js.LICENSE.txt",
+    "static/css/main.552e1fe3.chunk.css.map": "/perfilReactJS/static/css/main.552e1fe3.chunk.css.map",
+    "static/js/2.0cd97a20.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.0cd97a20.chunk.js.LICENSE.txt",
     "static/media/CadeSimu.b2480c23.png": "/perfilReactJS/static/media/CadeSimu.b2480c23.png",
     "static/media/MATLAB.48cba9ad.ico": "/perfilReactJS/static/media/MATLAB.48cba9ad.ico",
     "static/media/cpp.1240ce15.png": "/perfilReactJS/static/media/cpp.1240ce15.png",
@@ -33,10 +33,10 @@
     "static/media/xampp.facb942c.png": "/perfilReactJS/static/media/xampp.facb942c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e52d532.js",
+    "static/js/runtime-main.02146c4c.js",
     "static/css/2.d3d1b499.chunk.css",
-    "static/js/2.76b46c5c.chunk.js",
-    "static/css/main.20b4d00f.chunk.css",
-    "static/js/main.91f1df79.chunk.js"
+    "static/js/2.0cd97a20.chunk.js",
+    "static/css/main.552e1fe3.chunk.css",
+    "static/js/main.651a6ad2.chunk.js"
   ]
 }
