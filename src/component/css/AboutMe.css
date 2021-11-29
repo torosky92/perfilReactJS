@@ -1,0 +1,158 @@
+.AboutMe {
+    text-align: center;
+}
+
+.AboutMe-link {
+    color: #35dae6;
+}
+
+.AboutMe img{
+    margin-top: 2rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+    text-align: left;
+    width: 15rem;
+    height: 15rem;
+}
+
+.AboutMe a, button{
+    color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    font-size: xx-large;
+}
+.AboutMe button{
+    background: transparent;
+    border: transparent;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.AboutMe h1{
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+}
+
+.MyName{
+    margin-top: 2rem;
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+}
+
+.MyBirthday{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+}
+
+.AboutMe h2{
+    color: aliceblue;
+    text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+}
+
+.AboutMe h3{
+    color: beige;
+}
+
+.AboutMe h5{
+    color: beige;
+    text-align: left;
+}
+
+.AboutMe label{
+    color: beige;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.AboutMe p{
+    color: beige;
+    text-align: left;
+}
+.AboutMe li{
+    color: beige;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.timer h3{
+    font-weight: 80;
+    font-size: 80px;
+}
+
+.timer button{
+    margin: -10px;
+    padding: auto;
+    border: solid azure 1px;
+    border-radius: 7px 7px; 
+    box-sizing: border-box;
+}
+.timer h5{
+    font-weight: 80;
+    margin-bottom: 1px;
+    margin-top: 3px;
+    padding: 2px;
+}
+
+.box {
+    color: azure;
+    background: #233E40;
+    border-bottom: 1px 1px black;
+    text-align: center;
+    margin: auto;
+    border: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 40%;
+}
+
+.TitleFormation{
+    color: azure;
+    text-align: right !important;
+}
+
+.textFormation {
+    color: beige;
+    text-align: left !important;
+}
+
+.boxAcademic {
+    color: azure;
+    background: #233E40;
+    border-bottom: 1px 1px black;
+    margin: auto;
+    border: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 45%;
+}
+
+.boxLanguages {
+    color: azure;
+    background: #233E40;
+    border-bottom: 1px 1px black;
+    margin: auto;
+    border: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.boxTitle {
+    color: black !important;
+    background: azure;
+    margin: auto;
+    border: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.boxDate {
+    color: azure !important;
+    background: rgb(22, 231, 231) !important;
+    border: 10px;
+    padding: auto;
+}
