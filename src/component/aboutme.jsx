@@ -19,8 +19,8 @@ const AboutMeProcess = props => {
                 </div>
                 
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? 'FORMACIÓN ACADÉMICA': 'ACADEMIC TRAINING'}</h1>
-                <div className="row mt-2 container">
-                    {AboutMe.Academic.map((dato) => <div className="boxAcademic col-sm-6">
+                <div className="row mt-2">
+                    {AboutMe.Academic.map((dato) => <div className="boxAcademic container col-sm-6">
                         <h2 className="Title2">{props.languages === 'SPANISH' ? dato.Title.Spanish : dato.Title.English}</h2>
                         <div className="row container">
                             <div className="col-sm-5">
@@ -43,7 +43,7 @@ const AboutMeProcess = props => {
                 </div>
 
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? 'IDIOMAS': 'LANGUAGES'}</h1>
-                <div className="boxLanguages mt-2">
+                <div className="container boxLanguages mt-2">
                     {AboutMe.Languages.map((dato) => <div className="row">
                         <div className="col-sm-3 container"> <h4 className="Title2">{props.languages === 'SPANISH' ? dato.language.Spanish : dato.language.English}</h4> </div>
                         <div className="col-sm-5 container"> <h4 className="textFormation">{props.languages === 'SPANISH' ? dato.level.Spanish : dato.level.English}</h4></div>
@@ -51,11 +51,11 @@ const AboutMeProcess = props => {
                 </div>
 
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? 'INTERES': 'INTEREST'}</h1>
-                <div className="boxLanguages">
+                <div className="container boxLanguages">
                     <label className="textFormation">{props.languages === 'SPANISH' ? Likes.interest.Spanish : Likes.interest.English}</label>
                 </div>
 
-                <div className="boxLanguages mt-4">
+                <div className="container boxLanguages mt-4">
                     <h2 className="Title2">{props.languages === 'SPANISH' ? 'ÁREAS DE TRABAJO' : 'WORK AREAS'}</h2>
                     <div className="mt-3">
                         {Likes.worksArea.map((dato) => <li>{props.languages === 'SPANISH' ? dato.Spanish : dato.English}</li>)}
@@ -63,7 +63,8 @@ const AboutMeProcess = props => {
                 </div>
 
                 <h1 className="Title container mt-5">{props.languages === 'SPANISH' ? 'CURSOS, CONCURSOS, DIPLOMADOS Y CONGRESOS': 'COURSES, COMPETITIONS, DIPLOMA AND CONFERENCES'}</h1>
-                {Course.map((dato) => <div className="row container mt-3">
+                
+                {Course.map((dato) => <div className="container mt-3">
                     <div className="col-sm-12 boxTitle">
                         <h3 className="boxTitle">{props.languages === 'SPANISH' ? dato.Title.Spanish : dato.Title.English}</h3>
                     </div>

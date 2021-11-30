@@ -9,7 +9,7 @@ export const ExperienceProcess = props => {
         <div className="Experience">
             <form className="container-fluid" onSubmit={(e) => e.preventDefault()}>
                 <h1 className="Title mt-3">{props.languages === 'SPANISH' ? 'EXPERIENCIA LABORAL': 'WORK EXPERIENCE'}</h1>
-                {Experience.map((dato) => <div className="row container mt-3">
+                {Experience.map((dato) => <div className="container mt-3">
                     <div className="col-sm-12 boxTitle">
                         <h3 className="boxTitle">{props.languages === 'SPANISH' ? 'POSICIÓN: ' : 'POSITION: '}{props.languages === 'SPANISH' ? dato.Position.Spanish : dato.Position.English}</h3>
                     </div>
@@ -48,7 +48,7 @@ export const ExperienceProcess = props => {
                 </div>)}
                 
                 <h1 className="Title mt-4">{props.languages === 'SPANISH' ? 'REFERENCIAS PROFESIONAL': 'PROFESSIONAL REFERENCES'}</h1>
-                {ReferenceLAB.map((dato) => <div className="row container mt-3">
+                {ReferenceLAB.map((dato) => <div className=" container mt-3">
                     <div className="col-sm-12 boxTitle">
                         <h3 className="boxTitle">{props.languages === 'SPANISH' ? 'POSICIÓN: ' : 'POSITION: '}{props.languages === 'SPANISH' ? dato.Position.Spanish : dato.Position.English}</h3>
                     </div>
