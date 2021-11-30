@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/perfilReactJS/static/css/main.552e1fe3.chunk.css",
+    "main.css": "/perfilReactJS/static/css/main.ccc5417e.chunk.css",
     "main.js": "/perfilReactJS/static/js/main.d9d5e73c.chunk.js",
     "main.js.map": "/perfilReactJS/static/js/main.d9d5e73c.chunk.js.map",
     "runtime-main.js": "/perfilReactJS/static/js/runtime-main.02146c4c.js",
@@ -12,7 +12,7 @@
     "static/js/3.729aaf9f.chunk.js.map": "/perfilReactJS/static/js/3.729aaf9f.chunk.js.map",
     "index.html": "/perfilReactJS/index.html",
     "static/css/2.d3d1b499.chunk.css.map": "/perfilReactJS/static/css/2.d3d1b499.chunk.css.map",
-    "static/css/main.552e1fe3.chunk.css.map": "/perfilReactJS/static/css/main.552e1fe3.chunk.css.map",
+    "static/css/main.ccc5417e.chunk.css.map": "/perfilReactJS/static/css/main.ccc5417e.chunk.css.map",
     "static/js/2.0cd97a20.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.0cd97a20.chunk.js.LICENSE.txt",
     "static/media/CadeSimu.b2480c23.png": "/perfilReactJS/static/media/CadeSimu.b2480c23.png",
     "static/media/MATLAB.48cba9ad.ico": "/perfilReactJS/static/media/MATLAB.48cba9ad.ico",
@@ -20,7 +20,6 @@
     "static/media/cura.64c7af2c.ico": "/perfilReactJS/static/media/cura.64c7af2c.ico",
     "static/media/eagle.3c24103d.ico": "/perfilReactJS/static/media/eagle.3c24103d.ico",
     "static/media/figma.e3eda632.png": "/perfilReactJS/static/media/figma.e3eda632.png",
-    "static/media/Home.css": "/perfilReactJS/static/media/homeScreen.437117dc.jpg",
     "static/media/movavi.34e46477.png": "/perfilReactJS/static/media/movavi.34e46477.png",
     "static/media/perfil.a266cc56.png": "/perfilReactJS/static/media/perfil.a266cc56.png",
     "static/media/picpick.ca9c6359.png": "/perfilReactJS/static/media/picpick.ca9c6359.png",
@@ -36,7 +35,7 @@
     "static/js/runtime-main.02146c4c.js",
     "static/css/2.d3d1b499.chunk.css",
     "static/js/2.0cd97a20.chunk.js",
-    "static/css/main.552e1fe3.chunk.css",
+    "static/css/main.ccc5417e.chunk.css",
     "static/js/main.d9d5e73c.chunk.js"
   ]
 }
