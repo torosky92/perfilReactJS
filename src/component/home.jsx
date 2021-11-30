@@ -8,21 +8,23 @@ const HomeProcess = props => {
         <div className="Home">
             <form className="container-fluid" onSubmit={(e) => e.preventDefault()}>
                 <div>{HomeInformation.Photo}</div>
-                <h1>{props.languages === 'SPANISH' ? HomeInformation.Title.Spanish: HomeInformation.Title.English}</h1>
-                <label>{props.languages === 'SPANISH' ? HomeInformation.Description.Spanish: HomeInformation.Description.English}</label>
+                <div className="row">
+                    <h1>{props.languages === 'SPANISH' ? HomeInformation.Title.Spanish: HomeInformation.Title.English}</h1>
+                    <label className="col-sm-9 container">{props.languages === 'SPANISH' ? HomeInformation.Description.Spanish: HomeInformation.Description.English}</label>
+                </div>
                 {HomeInformation.Contact.map((dato) => <a href={dato.text}>{dato.icon}</a>)}
-                {HomeInformation.WT.map((dato) => <button 
-                    onClick={() => 
-                        toast(dato.text, 
-                            {
-                                icon: dato.icon,
-                                style: {
-                                    borderRadius: '10px',
-                                    background: '#333',
-                                    color: '#fff',
+                    {HomeInformation.WT.map((dato) => <button 
+                        onClick={() => 
+                            toast(dato.text, 
+                                {
+                                    icon: dato.icon,
+                                    style: {
+                                        borderRadius: '10px',
+                                        background: '#333',
+                                        color: '#fff',
+                                    }
                                 }
-                            }
-                        )}>{dato.icon}</button>)}
+                            )}>{dato.icon}</button>)}
                 <Toaster position="bottom-right"/>
             </form>
             {props.whatsapp}
