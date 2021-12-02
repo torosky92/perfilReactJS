@@ -125,14 +125,6 @@ export const SOFTWARE = [
         day: 1,
     },
     {
-        software:'FIGMA',
-        icons:<img src={figma} style={{width:'100%'}} alt=""/>,
-        color:'black',
-        year: 2020,
-        month: 11,
-        day: 1,
-    },
-    {
         software:'EXCEL',
         icons:<SiMicrosoftexcel/>,
         color:'green',

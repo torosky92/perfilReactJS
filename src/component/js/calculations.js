@@ -6,7 +6,7 @@ export const YearsToNow = (year, month, day) => {
 }
 
 export const HowMonth = (month, languages) => {
-    if(month === 1) var textMonth =  languages === 'SPANISH' ? 'ENERO': 'JANUARY'
+    if(month === 1 || month === 13) var textMonth =  languages === 'SPANISH' ? 'ENERO': 'JANUARY'
     if(month === 2) textMonth =  languages === 'SPANISH' ? 'FEBRERO': 'FEBRUARY'
     if(month === 3) textMonth =  languages === 'SPANISH' ? 'MARZO': 'MARCH'
     if(month === 4) textMonth =  languages === 'SPANISH' ? 'ABRIL': 'APRIL'
