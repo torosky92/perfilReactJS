@@ -7,7 +7,7 @@ import {YearsToNow} from './js/calculations'
 export const SkillsProcess = props => {
     return(
         <div className="container" onSubmit={(e) => e.preventDefault()}>
-            <h1 >{props.languages === 'SPANISH' ? 'SISTEMA OPERATIVO' : 'OS'}</h1>
+            <h1 >{props.languages === 'SPANISH' ? <><span>SISTEMA</span>{' '}OPERATIVO</>: 'OS'}</h1>
             <div className="row">
                 {SystemOP.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.system}
@@ -25,7 +25,7 @@ export const SkillsProcess = props => {
                         library={[]} textLibrary={props.languages === 'SPANISH' ? 'LIBRERIAS' : 'LIBRARY'} hasLibrary={false}/>)
                 )}
             </div>
-            <h1 >{props.languages === 'SPANISH' ? 'LENGUAJE DE PROGRAMACIÓN': 'PROGRAMMING LANGUAGE'}</h1>
+            <h1 >{props.languages === 'SPANISH' ? <><span>LENGUAJE</span>{' '}DE PROGRAMACIÓN</>: <><span>PROGRAMMING</span>{' '}LANGUAGE</>}</h1>
             <div className="row">
                 {ProgrammingLanguages.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.language}

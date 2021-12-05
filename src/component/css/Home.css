@@ -1,28 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
 
 .Home {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 11rem);
+}
+
+.image{
+    flex:1 1 42rem;
     text-align: center;
 }
 
-.Home-link {
-    color: #35dae6;
+.image img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 30% 80% 80% 30% / 40% 50% 80% 80%;
 }
 
-.Home img{
-    margin-top: 5rem;
-    border-radius: 50%;
-    box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
-    width: 15rem;
-    height: 15rem;
+.content {
+    flex:0.5 1.5 50rem;
 }
-
-.Home h1{
+.content h3{
     color: aliceblue;
-    text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+    font-size: 4rem;
+    padding-bottom: .5rem;
 }
 
-.Home label{
+.content p{
     color: aliceblue;
+    font-size: 1.5rem;
+    padding:.1rem 0;
 }
 
 .Home button{

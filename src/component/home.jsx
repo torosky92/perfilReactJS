@@ -5,13 +5,13 @@ import './css/Home.css'
 import {HomeInformation} from './js/home'
 const HomeProcess = props => {
     return(
-        <div className="Home">
-            <form className="container-fluid" onSubmit={(e) => e.preventDefault()}>
-                <div>{HomeInformation.Photo}</div>
-                <div className="row">
-                    <h1>{props.languages === 'SPANISH' ? HomeInformation.Title.Spanish: HomeInformation.Title.English}</h1>
-                    <label className="col-sm-9 container">{props.languages === 'SPANISH' ? HomeInformation.Description.Spanish: HomeInformation.Description.English}</label>
-                </div>
+        <div className="Home" onSubmit={(e) => e.preventDefault()}>
+            <div className="image">{HomeInformation.Photo}</div>
+            <div className="content">
+                <h3>{props.languages === 'SPANISH' ? HomeInformation.Title.Spanish: HomeInformation.Title.English}</h3>
+                <p className="col-sm-9 container">{props.languages === 'SPANISH' ? HomeInformation.Description.Spanish: HomeInformation.Description.English}</p>
+            </div>
+            <div className="container">
                 {HomeInformation.Contact.map((dato) => <a href={dato.text}>{dato.icon}</a>)}
                     {HomeInformation.WT.map((dato) => <button 
                         onClick={() => 
@@ -25,8 +25,9 @@ const HomeProcess = props => {
                                     }
                                 }
                             )}>{dato.icon}</button>)}
-                <Toaster position="bottom-right"/>
-            </form>
+            </div>
+            
+            <Toaster position="bottom-right"/>
             {props.whatsapp}
         </div>
     );
