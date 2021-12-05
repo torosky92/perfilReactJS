@@ -19,6 +19,10 @@ const AboutMeProcess = props => {
                     </div>
                 </div>
                 
+                <h2 className="container Title2 mt-3">{props.languages === 'SPANISH' ? <><span>ÁREAS</span>{' '}DE TRABAJO</> : <><span>WORK</span>{' '}AREAS</>}</h2>
+                <div className="container">
+                    {Likes.worksArea.map((dato) => <li>{props.languages === 'SPANISH' ? dato.Spanish : dato.English}</li>)}
+                </div>
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? <><span>FORMACIÓN</span>{' '}ACADÉMICA</>: <><span>ACADEMIC</span>{' '}TRAINING</>}</h1>
                 <div className="row">
                     {AboutMe.Academic.map((dato) => <div className="education2">
@@ -40,18 +44,6 @@ const AboutMeProcess = props => {
                     </div>)}
                 </div>
 
-                <h1 className="Title mt-5">{props.languages === 'SPANISH' ? 'INTERES': 'INTEREST'}</h1>
-                <div className="container boxLanguages">
-                    <label className="textFormation">{props.languages === 'SPANISH' ? Likes.interest.Spanish : Likes.interest.English}</label>
-                </div>
-
-                <div className="container boxLanguages mt-4">
-                    <h2 className="Title2">{props.languages === 'SPANISH' ? 'ÁREAS DE TRABAJO' : 'WORK AREAS'}</h2>
-                    <div className="mt-3">
-                        {Likes.worksArea.map((dato) => <li>{props.languages === 'SPANISH' ? dato.Spanish : dato.English}</li>)}
-                    </div>
-                </div>
-
                 <h1 className="Title container mt-5">{props.languages === 'SPANISH' ? 'CURSOS, CONCURSOS, DIPLOMADOS Y CONGRESOS': 'COURSES, COMPETITIONS, DIPLOMA AND CONFERENCES'}</h1>
                 <div className="row">
                     {Course.map((dato) => <div className="education2">
@@ -63,6 +55,11 @@ const AboutMeProcess = props => {
                             <p><b style={{color:'crimson'}}>{props.languages === 'SPANISH' ? 'CIUDAD: ' : 'CITY: '}</b>{dato.Places}</p>
                         </div>
                     </div>)}
+                </div>
+
+                <h1 className="Title mt-5">{props.languages === 'SPANISH' ? 'INTERES': 'INTEREST'}</h1>
+                <div className="container boxLanguages">
+                    <label className="textFormation">{props.languages === 'SPANISH' ? Likes.interest.Spanish : Likes.interest.English}</label>
                 </div>
             </form>
         </div>

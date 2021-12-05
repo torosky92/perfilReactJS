@@ -8,7 +8,7 @@ export const SkillsProcess = props => {
     return(
         <div className="container" onSubmit={(e) => e.preventDefault()}>
             <h1 >{props.languages === 'SPANISH' ? <><span>SISTEMA</span>{' '}OPERATIVO</>: 'OS'}</h1>
-            <div className="row">
+            <div className="boxfind">
                 {SystemOP.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.system}
                         value={`${(YearsToNow(dato.year, dato.month, dato.day))} ${(props.languages === 'SPANISH' ? 'AÑOS' : 'YEARS')}`}
@@ -17,7 +17,7 @@ export const SkillsProcess = props => {
                 )}
             </div>
             <h1 >SOFTWARE</h1>
-            <div className="row">
+            <div className="boxfind">
                 {SOFTWARE.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.software}
                         value={`${(YearsToNow(dato.year, dato.month, dato.day))} ${(props.languages === 'SPANISH' ? 'AÑOS' : 'YEARS')}`}
@@ -26,7 +26,7 @@ export const SkillsProcess = props => {
                 )}
             </div>
             <h1 >{props.languages === 'SPANISH' ? <><span>LENGUAJE</span>{' '}DE PROGRAMACIÓN</>: <><span>PROGRAMMING</span>{' '}LANGUAGE</>}</h1>
-            <div className="row">
+            <div className="boxfind">
                 {ProgrammingLanguages.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.language}
                         value={`${(YearsToNow(dato.year, dato.month, dato.day))} ${(props.languages === 'SPANISH' ? 'AÑOS' : 'YEARS')}`}

@@ -1,6 +1,5 @@
 import React, {useState} from "react"
 import './css/showItem.css'
-import { Modal } from "reactstrap"
 const ShowItem = props => {
     const [showList, setShowList] = useState(false)
     const showModal = () => {
@@ -8,15 +7,16 @@ const ShowItem = props => {
     }
     return(
         <>
-            {props.hasLibrary === true && <Modal 
-                    isOpen={showList} 
-                    toggle={() => setShowList(false)}
-                    size="lg"
-                    aria-labelledby="contained-modal-title-vcenter"
-                    centered>
-                <h2 className="modalh2">{props.textLibrary}</h2>
-                {props.library.map((dato) => <li className="modalLib"><span>{dato.library}:</span> {props.languages === 'SPANISH' ? 'FECHA' : 'DATE'}: <i>{dato.day}/{dato.month}/{dato.year}</i></li>)}
-            </Modal>}
+            {props.hasLibrary === true && <div 
+                className="modal fade"
+                aria-hidden={showList} 
+                toggle={() => setShowList(false)}
+                role="dialog"
+                aria-labelledby="contained-modal-title-vcenter"
+                centered>
+                    <h2 className="modalh2">{props.textLibrary}</h2>
+                    {props.library.map((dato) => <li className="modalLib"><span>{dato.library}:</span> {props.languages === 'SPANISH' ? 'FECHA' : 'DATE'}: <i>{dato.day}/{dato.month}/{dato.year}</i></li>)}
+            </div>}
             <div onClick={() => showModal()} className={"box-container"}>
                 <div className="row">
                     <div className="circle-icon">
