@@ -20,26 +20,15 @@ const AboutMeProcess = props => {
                 </div>
                 
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? <><span>FORMACIÓN</span>{' '}ACADÉMICA</>: <><span>ACADEMIC</span>{' '}TRAINING</>}</h1>
-                <div className="row mt-2">
-                    {AboutMe.Academic.map((dato) => <div className="boxAcademic container col-sm-6">
-                        <h2 className="Title2">{props.languages === 'SPANISH' ? dato.Title.Spanish : dato.Title.English}</h2>
-                        <div className="row container">
-                            <div className="col-sm-5">
-                                <div className="row">
-                                    <h4 className="TitleFormation">{'CAMPUS: '}</h4>
-                                    <h4 className="TitleFormation">{props.languages === 'SPANISH' ? 'CIUDAD: ' : 'CITY: '}</h4>
-                                </div>
-                            </div>
-                            <div className="col-sm-7 container">
-                                <div className="row">
-                                    <h4 className="textFormation">{props.languages === 'SPANISH' ? dato.Campus.Spanish : dato.Campus.English}</h4>
-                                    <h4 className="textFormation">{dato.Places}</h4>
-                                </div>
-                            </div>
+                <div className="row">
+                    {AboutMe.Academic.map((dato) => <div className="education2">
+                        <div className="education">
+                            <i><IoDocumentAttachOutline/></i>
+                            <span>{HowMonth(dato.DateInitial.month)}-{dato.DateInitial.year}{' - '}{HowMonth(dato.DateFinal.month)}-{dato.DateFinal.year}</span>
+                            <h3>{props.languages === 'SPANISH' ? dato.Title.Spanish : dato.Title.English}</h3>
+                            <p><b style={{color:'crimson'}}>{'CAMPUS: '}</b>{props.languages === 'SPANISH' ? dato.Campus.Spanish : dato.Campus.English}</p>
+                            <p><b style={{color:'crimson'}}>{props.languages === 'SPANISH' ? 'CIUDAD: ' : 'CITY: '}</b>{dato.Places}</p>
                         </div>
-                        
-                        <label>{props.languages === 'SPANISH' ? 'FECHA INICIAL: ' : 'DATE INITIAL: '}{HowMonth(dato.DateInitial.month)}-{dato.DateInitial.year}</label>
-                        <label>{props.languages === 'SPANISH' ? 'FECHA FINAL: ' : 'DATE FINAL: '}{HowMonth(dato.DateFinal.month)}-{dato.DateFinal.year}</label>
                     </div>)}
                 </div>
 
