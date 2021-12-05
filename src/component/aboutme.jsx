@@ -3,7 +3,7 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './css/AboutMe.css'
 import {AboutMe, Likes, Course} from './js/aboutMe'
 import {YearsToNow, HowMonth} from './js/calculations'
-import { IoDocumentAttachOutline } from "react-icons/io5"
+import { IoCafe, IoDocumentAttachOutline } from "react-icons/io5"
 const AboutMeProcess = props => {
     return(
         <div className="AboutMe">
@@ -23,6 +23,7 @@ const AboutMeProcess = props => {
                 <div className="container">
                     {Likes.worksArea.map((dato) => <li>{props.languages === 'SPANISH' ? dato.Spanish : dato.English}</li>)}
                 </div>
+
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? <><span>FORMACIÓN</span>{' '}ACADÉMICA</>: <><span>ACADEMIC</span>{' '}TRAINING</>}</h1>
                 <div className="row">
                     {AboutMe.Academic.map((dato) => <div className="education2">
@@ -37,10 +38,12 @@ const AboutMeProcess = props => {
                 </div>
 
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? 'IDIOMAS': 'LANGUAGES'}</h1>
-                <div className="container boxLanguages mt-2">
-                    {AboutMe.Languages.map((dato) => <div className="row">
-                        <div className="col-sm-3 container"> <h4 className="Title2">{props.languages === 'SPANISH' ? dato.language.Spanish : dato.language.English}</h4> </div>
-                        <div className="col-sm-5 container"> <h4 className="textFormation">{props.languages === 'SPANISH' ? dato.level.Spanish : dato.level.English}</h4></div>
+                <div className="row">
+                    {AboutMe.Languages.map((dato) => <div className="education2">
+                        <div className="education">
+                            <i><IoCafe/></i>
+                            <span>{props.languages === 'SPANISH' ? dato.language.Spanish : dato.language.English}: <b>{props.languages === 'SPANISH' ? dato.level.Spanish : dato.level.English}</b></span>
+                        </div>
                     </div>)}
                 </div>
 
@@ -58,7 +61,7 @@ const AboutMeProcess = props => {
                 </div>
 
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? 'INTERES': 'INTEREST'}</h1>
-                <div className="container boxLanguages">
+                <div className="container">
                     <label className="textFormation">{props.languages === 'SPANISH' ? Likes.interest.Spanish : Likes.interest.English}</label>
                 </div>
             </form>
