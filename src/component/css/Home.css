@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
 .Home {
     text-align: center;
 }
@@ -23,13 +25,37 @@
     color: aliceblue;
 }
 
-.Home a, button{
-    color: aliceblue;
-    margin: 20px;
-    text-align: center;
-    font-size: xx-large;
-}
 .Home button{
-    background: transparent;
-    border: transparent;
+	background-color:rgba(255, 0, 0, 0.8);
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+    font-size: xx-large;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.Home button:hover{
+	background-color: transparent;
+	border: 2px solid rgba(255, 0, 0, 0.8);
+	cursor: pointer;
+}
+
+.Home a{
+	background-color:rgba(255, 0, 0, 0.8);
+	color: white;
+	text-decoration: none;
+    margin: 20px;
+	border: 2px solid transparent;
+	font-weight: bold;
+    font-size: xx-large;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.Home a:hover{
+	background-color: transparent;
+	border: 2px solid rgba(255, 0, 0, 0.8);
+	cursor: pointer;
 }

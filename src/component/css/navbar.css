@@ -1,8 +1,19 @@
-.user-img{
-    margin-top: 25px;
-    margin-bottom: 35px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
 
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 55px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
 .user-img img{
     width: 50xp;
     height: 50px;
@@ -10,66 +21,23 @@
     border-radius: 50%;
 }
 
-.navbar{
-    background: #000000;
-    list-style-type: none; 
-    grid-area: nav;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px 0 30px;
-    border-bottom: 1px solid #35dae6;
+span{
+	color: #f9004d;
 }
-
-.nav_icon img{
-    width: 100xp;
-    height: 100px;
-    margin: 0;
-    align-items: left;
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  25px;
 }
-
-.nav_icon {
-    display: none;
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
 }
-
-.nav_icon > i {
-    font-size: 26px;
-    color: #a5aaad;
-}
-
-.navbar__left > a{
-    margin-right: 30px;
-    text-decoration: none;
-    color: #a5aaad;
-    font-size: 15px;
-    font-weight: 700;
-}
-
-.navbar__left .active_link{
-    color: #35dae6;
-    border-bottom: 3px solid #35dae6;
-    padding-bottom: 12px;
-}
-
-.navbar__right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar__right > a{
-    margin-left: 20px;
-    text-decoration: none;
-}
-
-.navbar__right > a > i{
-    color: #35dae6;
-    font-size: 16px;
-    border-radius: 50px;
-    background: #ffffff;
-    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #ffffff;
-    padding: 7px;
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
 }
 .sidebar__link > a{
     text-decoration: none;
@@ -106,8 +74,8 @@
 }
 
 .active_menu_link {
-    background: rgba(13, 238, 227, 0.3);
-    color: #35dae6;
+    background: rgba(255, 0, 0, 0.8);
+    color: #f9004d;
 }
 
 .active_menu_link a{

@@ -1,6 +1,6 @@
 import perfil from '../img/perfil.png'
 export const AboutMe ={
-    Name:'David Antonio Toro Medina',
+    Name:<>David A. <span>Toro M.</span></>,
     Date:{
         year:1992,
         month:1,

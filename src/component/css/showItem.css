@@ -1,57 +1,106 @@
-.boxModal {
-    background: #232323 !important;
-    color: aliceblue;
-}
-.boxModal h1{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+h1 {
+    color: white;
+	font-size: 55px;
+	letter-spacing: 1px;
+	cursor: pointer;
     text-align: center;
-    background-color: #232323;
+    margin: 10px;
 }
-.boxModal li>i{
-    color: #00e1ff;
-}
-.boxModal li{
-    margin-left: 20%;
-    text-align: left;
-    color: #232323;
-}
-.boxShow {
-    width: 15%;
+
+.box-container {
+    color: azure;
+    background: #1a1a1a;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.7);
+    text-align: center;
     margin: auto;
-    text-align: center;
-    margin-top: 10%;
-    box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 7px 1px;
-    display: flex;
-    justify-content: center !important;
+    border: 10px;
+    width: 25%;
+    margin: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
 }
 
-.boxIcon {
-    text-align: center;
-    color: aliceblue;
-    margin-top: 10%;
-    font-size: 40px;
+.box-container:hover {
+    color: black;
+    background: #aaa;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.7);
+    transition: .4s; 
 }
 
-.boxText {
-    text-align: center;
-    color: aliceblue;
-    font-size: 25px;
-    margin-top: 1%;
+.box-container span{
+	color: #f9004d;
 }
 
-.boxText2 {
-    text-align: center;
-    color: aliceblue;
-    font-size: 15px;
-    margin-top: 1%;
+.modalLib li{
+	margin-left: 10rem;
+    margin-bottom: 5px;
 }
 
-.boxValue {
+.modalh2 h2 {
+    background-color: #1a1a1a;
+    color: #f9004d;
+	font-size: 55px;
+	letter-spacing: 1px;
+	cursor: pointer;
     text-align: center;
-    width: 70%;
-    margin-top: 35%;
+    margin-bottom: 10px;
 }
 
-.boxValue2 {
-    text-align: center;
-    width: 30%;
+.modalh2 h2:hover {
+    background-color: #f9004d;
+    color: #1a1a1a;
+	font-size: 65px;
+    transition: .4s;
+}
+
+.box-container .circle-icon{
+    width: 40%;
+    justify-content: 'center';
+    align-items: 'center';
+    margin: auto;
+    padding: auto;
+}
+.box-container .info{
+    width: 55%;
+    justify-content: 'center';
+    align-items: 'center';
+    margin: auto;
+    margin-top: 10px;
+}
+.box-container i{
+    color: #f9004d;
+    margin: auto;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+.box-container img{
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+}
+.box-container p{
+    margin: auto;
+    font-size: small;
+}
+.box-container label{
+    margin: auto;
+    font-size:medium;
+    border: 2px solid rgba(255, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.box-container label:hover{
+    color: #f9004d;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+
+}
+
+.box-container h3{
+    margin: auto;
+    font-size: x-large;
 }

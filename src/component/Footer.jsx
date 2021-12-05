@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import {languagesFooter} from './js/data'
+import "./css/App.css"
 const Footer = () => {
     const [languages, setlanguages] = useState(localStorage.getItem('languages'))
     useEffect(() => {
@@ -9,11 +10,7 @@ const Footer = () => {
     }, [])
     return(
         <footer id="footer">
-            <div className="bg-light mt-3">
-                <p style={{textAlign:'center', fontSize:'20px', margin:'10px'}} className="text-dark">
-                    &copy; {languages === 'SPANISH' ? languagesFooter.Spanish : languagesFooter.English}
-                </p>
-            </div>
+            <h4 style={{}}> &copy; {languages === 'SPANISH' ? languagesFooter.Spanish : languagesFooter.English}</h4>
         </footer>
     );
 }

@@ -2,8 +2,8 @@ import perfil from '../img/perfil.png'
 import { SiGmail, SiMaildotru, SiLinkedin, SiInstagram, SiYoutube, SiGithub, SiTelegram } from "react-icons/si"
 export const HomeInformation ={
     Title:{
-        Spanish:'Soy David Antonio Toro Medina',
-        English:"I'm David Antonio Toro Medina",
+        Spanish:<>Soy <span>David A. Toro M.</span></>,
+        English: <>I'm <span>David A. Toro M.</span></>,
     },
     Description:{
         Spanish:'Estoy en la ciudad Envigado, Antioquia en Colombia basado en el desarrollo FullStack y en el área de IoT. Con una trayectoria de 3 años de experiencia en React (FrontEnd) y 5 años de experiencia en Python (BackEnd). Con habilidades en el área de automatización IoT, robótica, control, electrónica, diseño de impresiones 3D, PCB con fresadora CNC y grabado en láser. Con capacidad en trabajo en equipo, tolerante, dinámico, proactivo, líder, responsable, innovador, inquieto por el conocimiento y sociable.',

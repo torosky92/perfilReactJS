@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
 .AboutMe {
     text-align: center;
 }
@@ -6,6 +8,12 @@
     color: #35dae6;
 }
 
+.AboutMe h1{
+	color: white;
+	font-size: 55px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
 .AboutMe img{
     margin-top: 2rem;
     border-radius: 50%;
@@ -29,10 +37,7 @@
     float: none;
     clear: both;
 }
-.AboutMe h1{
-    color: aliceblue;
-    text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
-}
+
 
 .MyName{
     margin-top: 2rem;
@@ -96,63 +101,43 @@
     padding: 2px;
 }
 
-.box {
-    color: azure;
-    background: #233E40;
-    border-bottom: 1px 1px black;
+.education2{
+    flex:1 1 35rem;
+    margin-left: 5rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 3.5rem;
+    padding-bottom: 3rem;
+    border-left: .1rem solid #aaa;
+    position: relative;
+}
+.education i{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    border-radius: 50%;
+    background: crimson;
+    color:aliceblue;
     text-align: center;
-    margin: auto;
-    border: 10px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    width: 40%;
+    position: absolute;
+    top:-1rem; left:-2.5rem;
 }
-
-.TitleFormation{
-    color: azure;
-    text-align: right !important;
+.education span{
+    font-size: 1.2rem;
+    color:aliceblue;
+    border-radius: 5rem;
+    padding:.5rem 1.5rem;
+    background: #1a1a1a;
 }
-
-.textFormation {
-    color: beige;
-    text-align: left !important;
+.education h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color:aliceblue;
+    padding-top: 1rem;
+    font-weight: normal;
 }
-
-.boxAcademic {
-    color: azure;
-    background: #233E40;
-    border-bottom: 1px 1px black;
-    margin: auto;
-    border: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 45%;
-}
-
-.boxLanguages {
-    color: azure;
-    background: #233E40;
-    border-bottom: 1px 1px black;
-    margin: auto;
-    border: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-}
-
-.boxTitle {
-    color: black !important;
-    background: azure;
-    margin: auto;
-    border: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-}
-
-.boxDate {
-    color: azure !important;
-    background: rgb(22, 231, 231) !important;
-    border: 10px;
-    padding: auto;
+.education p{
+    font-size: .8rem;
+    color:#aaa;
 }

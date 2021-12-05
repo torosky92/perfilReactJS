@@ -11,8 +11,9 @@ const Navbar = () => {
         window.localStorage.setItem('languages', e.target.value)
     }
     return(
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-            <div class="collapse navbar-collapse container" id="navbarNavDropdown">
+        <nav>
+			<h1 class="logo">Pro<span>file</span></h1>
+			<ul>
                 {languagesMain.map((dato) => (<li>
                     <div className={`sidebar__link ${ location.pathname === dato.link ? "sidebar__link active_menu_link":''}`}>
                         <Link to={dato.link}>{dato.icon} {languages === 'SPANISH' ? dato.titles.Spanish : dato.titles.English}</Link>
@@ -28,8 +29,8 @@ const Navbar = () => {
                         </div>
                     </div>
                 </li>
-            </div>
-        </nav>
+			</ul>
+		</nav>
     )
 
 }

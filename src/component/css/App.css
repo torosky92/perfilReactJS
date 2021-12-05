@@ -11,7 +11,9 @@
   height: 170px;
   margin: auto;
 }
-
+span{
+	color: #f9004d;
+}
 .card-dark{
   background-color: #282c34 !important;
   color: whitesmoke !important;
@@ -64,6 +66,8 @@
   border-radius: 50%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
 .form-group#user-group::before{
   content: "\f007";
 }
@@ -73,6 +77,12 @@
 }
 
 .Skill h1{
+  text-align: center;
+  color: aliceblue;
+  font-style: italic;
+}
+
+h4{
   text-align: center;
   color: aliceblue;
   font-style: italic;

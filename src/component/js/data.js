@@ -6,7 +6,6 @@ import eagle from '../img/eagle.ico'
 import tia from '../img/tia.ico'
 import qtdesigner from '../img/qtdesigner.png'
 import matlab from '../img/MATLAB.ico'
-import cpp from '../img/cpp.png'
 import proteus from '../img/proteus.png'
 import picpick from '../img/picpick.png'
 import vba from '../img/vba.png'
@@ -16,6 +15,7 @@ import scneider from '../img/scneider.png'
 import movavi from '../img/movavi.png'
 import PSIM from '../img/PSIM.png'
 import CadeSimu from '../img/CadeSimu.png'
+import { IoApps } from "react-icons/io5"
 export const languagesWhatsapp = {
     Spanish:{
         company:'HABLAR CON DAVID',
@@ -29,8 +29,8 @@ export const languagesWhatsapp = {
     }
 }
 export const languagesFooter = {
-    Spanish:'Pagina Creado Por David Antonio Toro Medina',
-    English:'Page Created by David Antonio Toro Medina',
+    Spanish:<>Pagina Creado Por <span>David A. Toro M.</span></>,
+    English:<>Page Created by <span>David A. Toro M.</span></>,
 }
 export const languagesMain = [
     {
@@ -77,7 +77,7 @@ export const SOFTWARE = [
     },
     {
         software:'SOLIDWORKS',
-        icons:<img src={SolidWorks} style={{width:'100%'}} alt=""/>,
+        icons:<img src={SolidWorks} alt=""/>,
         color:'black',
         year: 2014,
         month: 4,
@@ -85,7 +85,7 @@ export const SOFTWARE = [
     },
     {
         software:'EAGLE',
-        icons:<img src={eagle} style={{width:'100%'}} alt=""/>,
+        icons:<img src={eagle} alt=""/>,
         color:'#006699',
         year: 2016,
         month: 9,
@@ -93,7 +93,7 @@ export const SOFTWARE = [
     },
     {
         software:'PROTEUS',
-        icons:<img src={proteus} style={{width:'100%'}} alt=""/>,
+        icons:<img src={proteus} alt=""/>,
         color:'#000099',
         year: 2015,
         month: 3,
@@ -109,7 +109,7 @@ export const SOFTWARE = [
     },
     {
         software:'PICPICK',
-        icons:<img src={picpick} style={{width:'100%'}} alt=""/>,
+        icons:<img src={picpick} alt=""/>,
         color:'black',
         year: 2020,
         month: 3,
@@ -117,7 +117,7 @@ export const SOFTWARE = [
     },
     {
         software:'CURA',
-        icons:<img src={cura} style={{width:'100%'}} alt=""/>,
+        icons:<img src={cura} alt=""/>,
         color:'#000080',
         year: 2019,
         month: 3,
@@ -133,7 +133,7 @@ export const SOFTWARE = [
     },
     {
         software:'VBA',
-        icons:<img src={vba} style={{width:'100%'}} alt=""/>,
+        icons:<img src={vba} alt=""/>,
         color:'#34A853',
         year: 2013,
         month: 3,
@@ -165,7 +165,7 @@ export const SOFTWARE = [
     },
     {
         software:'XAMPP',
-        icons:<img src={xampp} style={{width:'100%'}} alt=""/>,
+        icons:<img src={xampp} alt=""/>,
         color:'orange',
         year: 2018,
         month: 3,
@@ -181,7 +181,7 @@ export const SOFTWARE = [
     },
     {
         software:'DESIGNER',
-        icons:<img src={qtdesigner} style={{width:'100%'}} alt=""/>,
+        icons:<img src={qtdesigner} alt=""/>,
         color:'#34A853',
         year: 2018,
         month: 3,
@@ -189,7 +189,7 @@ export const SOFTWARE = [
     },
     {
         software:'MATLAB',
-        icons:<img src={matlab} style={{width:'100%'}} alt=""/>,
+        icons:<img src={matlab} alt=""/>,
         color:'#F9D341',
         year: 2015,
         month: 7,
@@ -205,7 +205,7 @@ export const SOFTWARE = [
     },
     {
         software:'SoMachineBasic',
-        icons:<img src={scneider} style={{width:'100%'}} alt=""/>,
+        icons:<img src={scneider} alt=""/>,
         color:'#34A853',
         year: 2016,
         month: 9,
@@ -213,7 +213,7 @@ export const SOFTWARE = [
     },
     {
         software:'CADE_SIMU',
-        icons:<img src={CadeSimu} style={{width:'100%'}} alt=""/>,
+        icons:<img src={CadeSimu} alt=""/>,
         color:'red',
         year: 2014,
         month: 8,
@@ -221,7 +221,7 @@ export const SOFTWARE = [
     },
     {
         software:'PSIM',
-        icons:<img src={PSIM} style={{width:'100%'}} alt=""/>,
+        icons:<img src={PSIM} alt=""/>,
         color:'#3B5998',
         year: 2019,
         month: 9,
@@ -237,7 +237,7 @@ export const SOFTWARE = [
     },
     {
         software:'MOVAVI',
-        icons:<img src={movavi} style={{width:'100%'}} alt=""/>,
+        icons:<img src={movavi} alt=""/>,
         color:'black',
         year: 2017,
         month: 3,
@@ -245,7 +245,7 @@ export const SOFTWARE = [
     },
     {
         software:'TIA_PORTAL',
-        icons:<img src={tia} style={{width:'100%'}} alt=""/>,
+        icons:<img src={tia} alt=""/>,
         color:'#34A853',
         year: 2017,
         month: 3,
@@ -524,7 +524,7 @@ export const ProgrammingLanguages = [
     },
     {
         language:'C++',
-        icons:<img src={cpp} style={{width:'100%'}} alt=""/>,
+        icons:'C++',
         color:'#000099',
         level:{
             Spanish:'Intermedio',
@@ -537,7 +537,7 @@ export const ProgrammingLanguages = [
     },
     {
         language:'ROS',
-        icons:'ROS',
+        icons:<><IoApps/>ROS</>,
         color:'#36486b',
         level:{
             Spanish:'Intermedio',
@@ -608,7 +608,7 @@ export const ProgrammingLanguages = [
     },
     {
         language:'MATLAB',
-        icons:<img src={matlab} style={{width:'100%'}} alt=""/>,
+        icons:<img src={matlab} alt=""/>,
         color:'#F9D341',
         level:{
             Spanish:'Intermedio',
@@ -641,7 +641,7 @@ export const ProgrammingLanguages = [
     },
     {
         language:'SCNEIDER',
-        icons:<img src={scneider} style={{width:'100%'}} alt=""/>,
+        icons:<img src={scneider} alt=""/>,
         color:'#34A853',
         level:{
             Spanish:'Intermedio',
