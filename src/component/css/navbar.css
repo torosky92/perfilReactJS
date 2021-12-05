@@ -10,7 +10,7 @@ nav{
 }
 .logo{
 	color: white;
-	font-size: 55px;
+	font-size: 3.5rem;
 	letter-spacing: 1px;
 	cursor: pointer;
 }
@@ -47,7 +47,7 @@ nav ul li a:hover{
 
 .sidebar__link > i {
     margin-right: 10px;
-    font-size: 18px;
+    font-size: .5rem;
 }
 
 .sidebar__logout {
@@ -64,7 +64,7 @@ nav ul li a:hover{
 }
 .sidebar__logout > i {
     margin-right: 10px;
-    font-size: 18px;
+    font-size: .5rem;
 }
 .sidebar__link{
     color: #f3f4f6 !important;

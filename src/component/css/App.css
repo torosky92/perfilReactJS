@@ -2,10 +2,6 @@
   text-align: center;
 }
 
-.App-link {
-  color: #35dae6;
-}
-
 .App img{
   width: 150xp;
   height: 170px;
@@ -42,10 +38,6 @@ span{
   margin: auto;
   overflow: auto;
   padding: 10px;
-}
-
-.FormBar-link {
-  color: #35dae6;
 }
 
 .FormBar img{
