@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/perfilReactJS/static/css/main.7faaa33e.chunk.css",
-    "main.js": "/perfilReactJS/static/js/main.6f3a4b2a.chunk.js",
-    "main.js.map": "/perfilReactJS/static/js/main.6f3a4b2a.chunk.js.map",
+    "main.css": "/perfilReactJS/static/css/main.1fd5b832.chunk.css",
+    "main.js": "/perfilReactJS/static/js/main.5b43686d.chunk.js",
+    "main.js.map": "/perfilReactJS/static/js/main.5b43686d.chunk.js.map",
     "runtime-main.js": "/perfilReactJS/static/js/runtime-main.a0c6a8ef.js",
     "runtime-main.js.map": "/perfilReactJS/static/js/runtime-main.a0c6a8ef.js.map",
     "static/css/2.d3d1b499.chunk.css": "/perfilReactJS/static/css/2.d3d1b499.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.67d83848.chunk.js.map": "/perfilReactJS/static/js/3.67d83848.chunk.js.map",
     "index.html": "/perfilReactJS/index.html",
     "static/css/2.d3d1b499.chunk.css.map": "/perfilReactJS/static/css/2.d3d1b499.chunk.css.map",
-    "static/css/main.7faaa33e.chunk.css.map": "/perfilReactJS/static/css/main.7faaa33e.chunk.css.map",
+    "static/css/main.1fd5b832.chunk.css.map": "/perfilReactJS/static/css/main.1fd5b832.chunk.css.map",
     "static/js/2.6181f6dd.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.6181f6dd.chunk.js.LICENSE.txt",
     "static/media/CadeSimu.b2480c23.png": "/perfilReactJS/static/media/CadeSimu.b2480c23.png",
     "static/media/MATLAB.48cba9ad.ico": "/perfilReactJS/static/media/MATLAB.48cba9ad.ico",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.a0c6a8ef.js",
     "static/css/2.d3d1b499.chunk.css",
     "static/js/2.6181f6dd.chunk.js",
-    "static/css/main.7faaa33e.chunk.css",
-    "static/js/main.6f3a4b2a.chunk.js"
+    "static/css/main.1fd5b832.chunk.css",
+    "static/js/main.5b43686d.chunk.js"
   ]
 }
