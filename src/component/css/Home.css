@@ -25,6 +25,8 @@
     color: aliceblue;
     font-size: 2.5rem;
     padding-bottom: .5rem;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .content p{
@@ -66,4 +68,31 @@
 	background-color: transparent;
 	border: 2px solid rgba(255, 0, 0, 0.8);
 	cursor: pointer;
+}
+
+@media only screen and (max-width: 850px){
+    .image img{
+		height: 15rem;
+		width: 15rem;
+		border-radius: 30% 80% 80% 30% / 40% 50% 80% 80%;
+	}
+	.content h3{
+		font-size: 2rem;
+		padding: auto;
+		text-align: center;
+	}
+	
+	.content p{
+		font-size: 1rem;
+		padding: auto;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	.Home button, .Home a{
+		text-align: center;
+		padding: 7.5px 20px;
+		margin-left: 1px;
+		border-radius: 25px;
+		margin-top: 30px;
+	}
 }

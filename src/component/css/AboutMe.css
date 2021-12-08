@@ -4,10 +4,6 @@
     text-align: center;
 }
 
-.AboutMe-link {
-    color: #35dae6;
-}
-
 .AboutMe h1{
 	color: white;
 	font-size: 55px;
@@ -140,4 +136,18 @@
 .education p{
     font-size: .8rem;
     color:#aaa;
+}
+
+@media only screen and (max-width: 850px){
+    .AboutMe h1{
+        font-size: 2rem;
+    }
+    .education h3{
+        font-size: 1.5rem;
+        padding: .5rem 0;
+        padding-top: .5rem;
+    }
+    .education span{
+        font-size: .7rem;
+    }
 }

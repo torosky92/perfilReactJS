@@ -9,6 +9,9 @@ h1 {
     margin: 10px;
 }
 
+#banner h1{
+    animation: showText 5s linear;
+}
 .boxfind {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -29,6 +32,15 @@ h1 {
     background: rgb(95, 94, 94);
     transition: .4s; 
 }
+
+.box-container:hover .info {
+    animation: showIcon 600ms linear;
+}
+
+.box-container:hover .circle-icon {
+    animation: showCategory 500ms linear;
+}
+
 
 .box-container span{
 	color: #f9004d;
@@ -96,6 +108,47 @@ h1 {
     text-transform: uppercase;
 }
 
+@keyframes showCategory{
+    from{
+        transform: translateY(-300%);
+    }
+    to{
+        transform: translateY(0%);
+    }
+}
+
+@keyframes showIcon{
+    from{
+        transform: translateX(-300%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes showText{
+    0%{
+        transform: translateX(-100%) scale(1.5,1.5);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(100%) scale(1.5,1.5);
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(-100%) scale(1.5,1.5);
+        text-shadow: none;
+        color: transparent;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%) scale(1,1);
+        text-shadow: 2px 2px 1px black;
+        color: white;
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 850px){
     .boxfind {
         display: grid;
@@ -103,6 +156,18 @@ h1 {
         grid-template-rows: auto;
         column-gap: 2rem;
         row-gap: 1.5rem;
+    }
+    #banner h1{
+        font-size: 2rem;
+		padding: auto;
+		text-align: center;
+    }	
+	
+    .box-container i{
+        font-size: 2rem;
+    }
+    .box-container img{
+        height: 2rem;
     }
 }
 
@@ -113,5 +178,8 @@ h1 {
         grid-template-rows: auto;
         column-gap: 2rem;
         row-gap: 1.5rem;
+    }
+    .circle-icon{
+        width: 25%;
     }
 }

@@ -6,7 +6,7 @@ import {ProgrammingLanguages, SystemOP, SOFTWARE} from './js/data'
 import {YearsToNow} from './js/calculations'
 export const SkillsProcess = props => {
     return(
-        <div className="container" onSubmit={(e) => e.preventDefault()}>
+        <div id='banner' className="container" onSubmit={(e) => e.preventDefault()}>
             <h1 >{props.languages === 'SPANISH' ? <><span>SISTEMA</span>{' '}OPERATIVO</>: 'OS'}</h1>
             <div className="boxfind">
                 {SystemOP.map((dato) => (
@@ -16,7 +16,7 @@ export const SkillsProcess = props => {
                         library={[]} textLibrary={props.languages === 'SPANISH' ? 'LIBRERIAS' : 'LIBRARY'} hasLibrary={false}/>)
                 )}
             </div>
-            <h1 >SOFTWARE</h1>
+            <h1 ><span>SOFT</span>WARE</h1>
             <div className="boxfind">
                 {SOFTWARE.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.software}

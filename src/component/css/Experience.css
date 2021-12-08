@@ -139,3 +139,17 @@
     margin: auto;
     margin-top: 1rem;
 }
+
+@media only screen and (max-width: 850px){
+    .Experience h1{
+        font-size: 2rem;
+    }
+    .Experience h3{
+        font-size: 1.5rem;
+        padding: .5rem 0;
+        padding-top: .5rem;
+    }
+    .Experience span{
+        font-size: 2rem;
+    }
+}

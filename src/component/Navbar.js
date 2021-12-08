@@ -11,7 +11,7 @@ const Navbar = () => {
         window.localStorage.setItem('languages', e.target.value)
     }
     return(
-        <nav>
+        <nav class="navbar">
 			<h1 class="logo">Pro<span>file</span></h1>
 			<ul>
                 {languagesMain.map((dato) => (<li>
