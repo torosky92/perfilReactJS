@@ -68,6 +68,7 @@
     width: 35rem;
     height: 25rem;
     align-items: center;
+    margin: auto;
 }
 
 @media only screen and (max-width: 690px){
