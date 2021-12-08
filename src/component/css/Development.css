@@ -35,6 +35,12 @@
     margin-bottom: .5rem;
 }
 
+.Development h5{
+    color: aliceblue;
+    text-align: left;
+    padding: 1%;
+}
+
 .Development2 ul>li{
     list-style-type: none;
     display: inline-block;

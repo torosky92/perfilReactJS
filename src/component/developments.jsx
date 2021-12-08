@@ -9,6 +9,7 @@ export const DevelopmentProcess = props => {
         <div className="Development">
             <form className="container-fluid" onSubmit={(e) => e.preventDefault()}>
                 <h1 className="Title mt-3">{props.languages === 'SPANISH' ? <><span>DES</span>ARROLLO</>: <><span>DEVEL</span>OPMENT</>}</h1>
+                <h5>{props.languages === 'SPANISH' ? 'Es importante tener aclarar que no se en cuentran todos los desarrollos que se han realizado durante todos estos años de experiencia, por temas de permisos o de fotos o videos perdidos.' : 'It is important to clarify that not all the developments that have been made during all these years of experience are found, due to permission issues or lost photos or videos.'}</h5>
                 <div className="boxfind2 mt-5">
                     {Developments.map((dato) => <div className="Development2">
                         <div className="row container">
