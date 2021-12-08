@@ -22,9 +22,9 @@ const AboutMeProcess = props => {
     return(
         <div className="AboutMe">
             <form className="container-fluid" onSubmit={(e) => e.preventDefault()}>
-                <div className="row container">
-                    <div className="col-sm-4">{AboutMe.Photo}</div>
-                    <div className="col-sm-8">
+                <div className="profile-box container">
+                    <div>{AboutMe.Photo}</div>
+                    <div>
                         <h2 className="MyName">{AboutMe.Name}</h2>
                         <div className="row">
                             <div className="timer col-sm-6 container">
