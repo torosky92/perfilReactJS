@@ -1,10 +1,24 @@
-import React from "react"
+import React, {useState} from "react"
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './css/AboutMe.css'
 import {AboutMe, Likes, Course} from './js/aboutMe'
 import {YearsToNow, HowMonth} from './js/calculations'
 import { IoCafe, IoDocumentAttachOutline } from "react-icons/io5"
 const AboutMeProcess = props => {
+    const [hours,setHours] = useState(0)
+    const [minutes,setMinutes] = useState(0)
+    const [seconds,setSeconds] = useState(0)
+    function countD(){
+        const timeNows = new Date();
+        const timePast = new Date(String(AboutMe.Date.year) + "/" + String(AboutMe.Date.month) + "/" + String(AboutMe.Date.day))
+        var timeVal = new Date(timeNows.getTime() - timePast.getTime())
+        var format = new Date(timeVal.toString())
+        var format2 = new Date(format.toUTCString())
+        setHours(format2.getUTCHours())
+        setMinutes(Number(format2.getUTCMinutes()) < 10 ? '0'+String(format2.getUTCMinutes()): String(format2.getUTCMinutes()))
+        setSeconds(Number(format2.getUTCSeconds()) < 10 ? '0'+String(format2.getUTCSeconds()): String(format2.getUTCSeconds()))
+    }
+    setInterval(countD, 1000)
     return(
         <div className="AboutMe">
             <form className="container-fluid" onSubmit={(e) => e.preventDefault()}>
@@ -12,9 +26,15 @@ const AboutMeProcess = props => {
                     <div className="col-sm-4">{AboutMe.Photo}</div>
                     <div className="col-sm-8">
                         <h2 className="MyName">{AboutMe.Name}</h2>
-                        <div className="box timer">
-                            <h3>{(YearsToNow(AboutMe.Date.year, AboutMe.Date.month, AboutMe.Date.day))}</h3>
-                            <button><h5>{(props.languages === 'SPANISH' ? 'AÑOS' : 'YEARS')}</h5></button>
+                        <div className="row">
+                            <div className="timer col-sm-6 container">
+                                <h1>{(YearsToNow(AboutMe.Date.year, AboutMe.Date.month, AboutMe.Date.day))}</h1>
+                                <button><h5>{(props.languages === 'SPANISH' ? 'AÑOS' : 'YEARS')}</h5></button>
+                            </div>
+                            <div className="timer col-sm-6 container">
+                                <h1>{hours}:{minutes}:{seconds}</h1>
+                                <button><h5>{props.languages === 'SPANISH' ? 'TIEMPO':'TIME'}</h5></button>
+                            </div>
                         </div>
                     </div>
                 </div>
