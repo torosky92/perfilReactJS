@@ -140,6 +140,20 @@
     margin-top: 1rem;
 }
 
+@keyframes showText2{
+    0%{
+        transform: translatey(-100%) scale(1,1);
+        text-shadow: none;
+        color: transparent;
+        opacity: 0;
+    }
+    100%{
+        transform: translatey(0%) scale(1,1);
+        text-shadow: 2px 2px 1px black;
+        opacity: 1;
+    }
+}
+
 @media only screen and (max-width: 850px){
     .Experience h1{
         font-size: 2rem;

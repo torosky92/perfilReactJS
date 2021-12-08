@@ -51,6 +51,14 @@ export const languagesMain = [
     },
     {
         titles:{
+            Spanish:'PROYECTOS Y DESARROLLOS',
+            English:'PROJECTS AND DEVELOPMENTS',
+        },
+        icon:<FaChartBar/>,
+        link:'/perfilReactJS/ProjectsAndDevelopments'
+    },
+    {
+        titles:{
             Spanish:'EXPERIENCIA',
             English:'EXPERIENCE',
         },

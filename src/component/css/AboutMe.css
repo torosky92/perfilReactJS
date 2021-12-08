@@ -9,6 +9,7 @@
 	font-size: 55px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
+    animation: showText 3s linear;
 }
 .AboutMe img{
     margin-top: 2rem;
@@ -106,6 +107,7 @@
     padding-bottom: 3rem;
     border-left: .1rem solid #aaa;
     position: relative;
+    animation: showText2 2s linear;
 }
 .education i{
     height: 4.5rem;
@@ -136,6 +138,21 @@
 .education p{
     font-size: .8rem;
     color:#aaa;
+}
+
+@keyframes showText{
+    0%{
+        transform: translateX(-100%) scale(1.5,1.5);
+        text-shadow: none;
+        color: transparent;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%) scale(1,1);
+        text-shadow: 2px 2px 1px black;
+        color: white;
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 850px){

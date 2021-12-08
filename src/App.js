@@ -4,6 +4,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './component/Navbar'
 import Footer from "./component/Footer"
 import HomeProcess from './component/home.jsx'
+import DevelopmentProcess from "./component/developments"
 import SkillsProcess from './component/skills.jsx'
 import ExperienceProcess from './component/experience.jsx'
 import AboutMeProcess from './component/aboutme.jsx'
@@ -25,6 +26,7 @@ function App() {
       <div className="Container">
         <Navbar/>
         <Routes>
+          <Route exact path="/perfilReactJS/ProjectsAndDevelopments" element={<DevelopmentProcess languages={languages} />}/>
           <Route exact path="/perfilReactJS/Skill" element={<SkillsProcess languages={languages} />}/>
           <Route exact path="/perfilReactJS/Experience" element={<ExperienceProcess languages={languages} />}/>
           <Route exact path="/perfilReactJS/AboutMe" element={<AboutMeProcess languages={languages} />}/>

@@ -27,6 +27,7 @@
     padding-bottom: .5rem;
 	padding-left: 2%;
 	padding-right: 2%;
+	animation: showText 1s linear;
 }
 
 .content p{
@@ -68,6 +69,29 @@
 	background-color: transparent;
 	border: 2px solid rgba(255, 0, 0, 0.8);
 	cursor: pointer;
+}
+
+@keyframes showText{
+    0%{
+        transform: translateX(-100%) scale(1.5,1.5);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(100%) scale(1.5,1.5);
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(-100%) scale(1.5,1.5);
+        text-shadow: none;
+        color: transparent;
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%) scale(1,1);
+        text-shadow: 2px 2px 1px black;
+        color: white;
+        opacity: 1;
+    }
 }
 
 @media only screen and (max-width: 850px){

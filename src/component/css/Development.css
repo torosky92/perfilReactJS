@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+.Development {
+    text-align: center;
+}
+
+.Development img{
+    margin-top: 5rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
+    width: 15rem;
+    height: 15rem;
+}
+.boxfind2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 2rem;
+    row-gap: 1.5rem;
+}
+.Development2 {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    animation: showText 1s linear;
+}
+.Development2 label{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.Development2 h3{
+    color: crimson;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+.Development2 ul>li{
+    list-style-type: none;
+    display: inline-block;
+	padding: .1px 5px;
+    margin: 5px;
+	color: aliceblue;
+	text-decoration: none;
+	font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+	text-transform: capitalize;
+}
+
+.Development2 img{
+    margin: -1px;
+    width: 3rem;
+    height: 3rem;
+}
+
+.spanDevelopment span{
+    font-size: 1.2rem;
+    color:aliceblue;
+    border-radius: 5rem;
+    padding:.5rem 1.5rem;
+    background: #1a1a1a;
+}
+.spanDevelopment {
+    margin-bottom: .7rem;
+}
+.Development2 iframe{
+    width: 35rem;
+    height: 25rem;
+    align-items: center;
+}
+
+@media only screen and (max-width: 690px){
+    .boxfind2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        column-gap: 2rem;
+        row-gap: 1.5rem;
+    }
+    .spanDevelopment span{
+        font-size: .8rem;
+    }
+    .Development2 iframe{
+        width: 25rem;
+        height: 15rem;
+    }
+    .Development2 label{
+        font-size: 1rem;
+    }
+    .Development2 h3{
+        font-size: 1.3rem;
+    }
+    .Development h1{
+        font-size: 2rem;
+    }
+}
