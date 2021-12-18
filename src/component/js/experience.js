@@ -1,6 +1,28 @@
 export const Experience = [
     {
         Position:{
+            Spanish:'Desarrollador Python',
+            English:'Python Developer',
+        },
+        Description:{
+            Spanish:'',
+            English:'',
+        },
+        Factory:'Serempre',
+        Places: 'Remoto central Bogota, Antioquia',
+        DateInitial:{
+            year:2021,
+            month:12,
+            day:20
+        },
+        DateFinal:{
+            year:0,
+            month:0,
+            day:0
+        },
+    },
+    {
+        Position:{
             Spanish:'Ingeniero de Sistemas, Diseño e Innovación',
             English:'System Engineer, Design and Innovation',
         },
@@ -16,9 +38,9 @@ export const Experience = [
             day:16
         },
         DateFinal:{
-            year:0,
-            month:0,
-            day:0
+            year:2021,
+            month:12,
+            day:19
         },
     },
     {
