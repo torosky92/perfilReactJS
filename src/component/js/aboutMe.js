@@ -67,8 +67,8 @@ export const AboutMe ={
                 English:'English'
             },
             level:{ 
-                Spanish:'B2',
-                English:'B2'
+                Spanish:'B1',
+                English:'B1'
             },
         },
     ],
