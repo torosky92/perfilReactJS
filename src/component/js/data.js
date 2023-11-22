@@ -275,7 +275,7 @@ export const SystemOP = [
         day: 1,
     },
     {
-        system:'Ubidots',
+        system:'Ubuntu',
         icons:<SiLinux/>,
         color:'orange',
         level:{
@@ -301,6 +301,12 @@ export const ProgrammingLanguages = [
             {
                 library: 'OOP',
                 year: 2019,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'REDIS',
+                year: 2021,
                 month: 7,
                 day: 1,
             },
@@ -355,6 +361,12 @@ export const ProgrammingLanguages = [
             {
                 library: 'JSON',
                 year: 2019,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'NUMPY',
+                year: 2021,
                 month: 7,
                 day: 1,
             }

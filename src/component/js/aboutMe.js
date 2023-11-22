@@ -546,4 +546,151 @@ export const Course = [
             day:12
         },
     },
+    {
+        Title:{
+            Spanish:'Certificado AI Capstone Project with Deep Learning',
+            English:'AI Capstone Project with Deep Learning'
+        },
+        Campus:{
+            Spanish:'Coursera con IBM',
+            English:'Coursera with IBM',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2023,
+            month:8,
+            day:1
+        },
+        DateFinal:{
+            year:2023,
+            month:8,
+            day:14
+        },
+    },
+    {
+        Title:{
+            Spanish:'Computer Vision and Image Processing Essentials https://www.credly.com/badges/bb4cdc07-bf5c-486c-a0c2-3592c633c35f/linked_in_profile',
+            English:'Computer Vision and Image Processing Essentials https://www.credly.com/badges/bb4cdc07-bf5c-486c-a0c2-3592c633c35f/linked_in_profile'
+        },
+        Campus:{
+            Spanish:'Coursera con IBM',
+            English:'Coursera with IBM',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2023,
+            month:8,
+            day:1
+        },
+        DateFinal:{
+            year:2023,
+            month:8,
+            day:6
+        },
+    },
+    {
+        Title:{
+            Spanish:'Deep Learning Essentials with Keras https://www.credly.com/badges/7b107c50-e93b-4599-8f08-d30aa13fcf64/linked_in_profile',
+            English:'Deep Learning Essentials with Keras https://www.credly.com/badges/7b107c50-e93b-4599-8f08-d30aa13fcf64/linked_in_profile'
+        },
+        Campus:{
+            Spanish:'Coursera con IBM',
+            English:'Coursera with IBM',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2023,
+            month:8,
+            day:1
+        },
+        DateFinal:{
+            year:2023,
+            month:8,
+            day:4
+        },
+    },
+    {
+        Title:{
+            Spanish:'Deep Learning with Tensorflow https://www.credly.com/badges/a15a43cb-bced-464c-8d59-c0a05a990278/linked_in_profile',
+            English:'Deep Learning with Tensorflow https://www.credly.com/badges/a15a43cb-bced-464c-8d59-c0a05a990278/linked_in_profile'
+        },
+        Campus:{
+            Spanish:'Coursera con IBM',
+            English:'Coursera with IBM',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2023,
+            month:8,
+            day:1
+        },
+        DateFinal:{
+            year:2023,
+            month:8,
+            day:11
+        },
+    },
+    {
+        Title:{
+            Spanish:'Deep Neural Networks with PyTorch https://www.credly.com/badges/a19a373e-ddb5-45a9-878f-cfd987d8e309/linked_in_profile',
+            English:'Deep Neural Networks with PyTorch https://www.credly.com/badges/a19a373e-ddb5-45a9-878f-cfd987d8e309/linked_in_profile'
+        },
+        Campus:{
+            Spanish:'Coursera con IBM',
+            English:'Coursera with IBM',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2023,
+            month:8,
+            day:1
+        },
+        DateFinal:{
+            year:2023,
+            month:8,
+            day:10
+        },
+    },
+    {
+        Title:{
+            Spanish:'Machine Learning with Python https://www.credly.com/badges/edb8bc4b-fefb-4267-8619-1b2ef67fed8a/linked_in_profile',
+            English:'Machine Learning with Python https://www.credly.com/badges/edb8bc4b-fefb-4267-8619-1b2ef67fed8a/linked_in_profile'
+        },
+        Campus:{
+            Spanish:'Coursera con IBM',
+            English:'Coursera with IBM',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2023,
+            month:8,
+            day:1
+        },
+        DateFinal:{
+            year:2023,
+            month:8,
+            day:1
+        },
+    },
+    {
+        Title:{
+            Spanish:'IBM AI Engineering Professional Certificate (V2) https://www.credly.com/badges/07c49a5a-9c1a-4d5f-a773-33bd06b7a6e6/linked_in_profile',
+            English:'IBM AI Engineering Professional Certificate (V2) https://www.credly.com/badges/07c49a5a-9c1a-4d5f-a773-33bd06b7a6e6/linked_in_profile'
+        },
+        Campus:{
+            Spanish:'Coursera con IBM',
+            English:'Coursera with IBM',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2023,
+            month:8,
+            day:1
+        },
+        DateFinal:{
+            year:2023,
+            month:8,
+            day:14
+        },
+    }
 ]

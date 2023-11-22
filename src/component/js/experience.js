@@ -5,8 +5,8 @@ export const Experience = [
             English:'Python Developer',
         },
         Description:{
-            Spanish:'Encargado de realizar desarrollos en backend con python en toda la empresa utilizando las herramientas necesarias, como Docker, Postgres, Flask y MongoDB. Analizando mejoras en todo los sistemas para optimizar procesos',
-            English:'Responsible for carrying out backend development with python throughout the company using the necessary tools, such as Docker, Postgres, Flask and MongoDB. Analyzing improvements in all systems to optimize processes',
+            Spanish:'Encargado de realizar desarrollos en backend con python en toda la empresa utilizando las herramientas necesarias como Docker, Postgres, Flask, Django, scrapping con selenium, machine learning, Redis, AWS y MongoDB. Analizando mejoras en todo los sistemas para optimizar procesos',
+            English:'Responsible for carrying out backend development with python throughout the company using the necessary tools such as Docker, Postgres, Flask, Django, scrapping with selenium, machine learning, Redis, AWS ECS2 and MongoDB. Analyzing improvements in all systems to optimize processes',
         },
         Factory:'Serempre',
         Places: 'Remoto central Bogota, Antioquia',
