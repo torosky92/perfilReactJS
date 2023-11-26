@@ -183,3 +183,29 @@ h1 {
         width: 25%;
     }
 }
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.7);
+    border-radius: .5rem;
+    background: #1a1a1a;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.popup-inner {
+    text-align: center;
+    color: #f9004d;
+}
+.popup-content {
+    text-align: left;
+    color: #ccc;
+}
+.popup-button {
+    background-color: #f9004d;
+    padding: 10px 20px;
+    border-radius: 15px;
+}

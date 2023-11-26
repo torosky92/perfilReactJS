@@ -1,23 +1,25 @@
 import React, {useState} from "react"
 import './css/showItem.css'
 const ShowItem = props => {
-    const [showList, setShowList] = useState(false)
-    const showModal = () => {
-        if(props.library.length > 0)setShowList(true)
+    const [showPopup, setShowPopup] = useState(false)
+    const togglePopup = () => {
+        setShowPopup(!showPopup);
     }
     return(
         <>
-            {props.hasLibrary === true && <div 
-                className="modal fade"
-                aria-hidden={showList} 
-                toggle={() => setShowList(false)}
-                role="dialog"
-                aria-labelledby="contained-modal-title-vcenter"
-                centered>
+            {props.hasLibrary && showPopup && <div 
+                className="popup"
+            >
+                <div className="popup-inner">
                     <h2 className="modalh2">{props.textLibrary}</h2>
-                    {props.library.map((dato) => <li className="modalLib"><span>{dato.library}:</span> {props.languages === 'SPANISH' ? 'FECHA' : 'DATE'}: <i>{dato.day}/{dato.month}/{dato.year}</i></li>)}
+                    {props.library.map((dato) => (<li className="modalLib popup-content">
+                        <span>{dato.library}:</span> 
+                        {props.languages === 'SPANISH' ? 'FECHA' : 'DATE'}: <i>{dato.day}/{dato.month}/{dato.year}</i>
+                    </li>))}
+                    <button className="popup-button" onClick={togglePopup}>Cerrar</button>
+                </div>
             </div>}
-            <div onClick={() => showModal()} className={"box-container"}>
+            <div onClick={togglePopup} className={"box-container"}>
                 <div className="row">
                     <div className="circle-icon">
                         <i>{props.icon}</i>

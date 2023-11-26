@@ -1,5 +1,5 @@
 
-import { SiMysql, SiArduino, SiAngular, SiTypescript, SiLabview, SiSiemens, SiMitsubishi, SiMongodb, SiLinux, SiWindows, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoftword, SiMicrosoftvisio, SiVisualstudiocode } from "react-icons/si"
+import { SiRedis, SiMysql, SiArduino, SiAngular, SiTypescript, SiLabview, SiSiemens, SiMitsubishi, SiMongodb, SiLinux, SiWindows, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoftword, SiMicrosoftvisio, SiVisualstudiocode } from "react-icons/si"
 import { FaHome, FaChartBar, FaChartPie, FaUserAlt, FaReact, FaCss3, FaHtml5, FaPython, FaGithubSquare, FaJs} from "react-icons/fa"
 import cura from '../img/cura.ico'
 import eagle from '../img/eagle.ico'
@@ -306,8 +306,8 @@ export const ProgrammingLanguages = [
             },
             {
                 library: 'REDIS',
-                year: 2021,
-                month: 7,
+                year: 2023,
+                month: 1,
                 day: 1,
             },
             {
@@ -366,10 +366,28 @@ export const ProgrammingLanguages = [
             },
             {
                 library: 'NUMPY',
-                year: 2021,
+                year: 2018,
                 month: 7,
                 day: 1,
-            }
+            },
+            {
+                library: 'SELENIUM',
+                year: 2023,
+                month: 3,
+                day: 1,
+            },
+            {
+                library: 'CELERY',
+                year: 2023,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'BIGQUERY',
+                year: 2022,
+                month: 1,
+                day: 1,
+            },
         ],
         year: 2017,
         month: 2,
@@ -480,7 +498,26 @@ export const ProgrammingLanguages = [
             Spanish:'Intermedio',
             English:'Intermediate',
         },
-        library:[],
+        library:[
+            {
+                library: 'POSTGRES',
+                year: 2022,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'MYSQL',
+                year: 2017,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'BIGQUERY',
+                year: 2022,
+                month: 1,
+                day: 1,
+            },
+        ],
         year: 2017,
         month: 7,
         day: 1,
@@ -496,6 +533,19 @@ export const ProgrammingLanguages = [
         library:[],
         year: 2020,
         month: 7,
+        day: 1,
+    },
+    {
+        language:'REDIS',
+        icons:<SiRedis/>,
+        color:'green',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[],
+        year: 2023,
+        month: 1,
         day: 1,
     },
     {
@@ -569,14 +619,27 @@ export const ProgrammingLanguages = [
         day: 1,
     },
     {
-        language:'GITHUB',
+        language:'GIT',
         icons:<FaGithubSquare/>,
         color:'black',
         level:{
             Spanish:'Intermedio',
             English:'Intermediate',
         },
-        library:[],
+        library:[
+            {
+                library: 'GITHUB',
+                year: 2019,
+                month: 7,
+                day: 1,
+            },
+            {
+                library: 'GITLAB',
+                year: 2022,
+                month: 12,
+                day: 20,
+            },
+        ],
         year: 2019,
         month: 7,
         day: 1,

@@ -569,8 +569,8 @@ export const Course = [
     },
     {
         Title:{
-            Spanish:'Computer Vision and Image Processing Essentials https://www.credly.com/badges/bb4cdc07-bf5c-486c-a0c2-3592c633c35f/linked_in_profile',
-            English:'Computer Vision and Image Processing Essentials https://www.credly.com/badges/bb4cdc07-bf5c-486c-a0c2-3592c633c35f/linked_in_profile'
+            Spanish:'Computer Vision and Image Processing Essentials',
+            English:'Computer Vision and Image Processing Essentials'
         },
         Campus:{
             Spanish:'Coursera con IBM',
@@ -590,8 +590,8 @@ export const Course = [
     },
     {
         Title:{
-            Spanish:'Deep Learning Essentials with Keras https://www.credly.com/badges/7b107c50-e93b-4599-8f08-d30aa13fcf64/linked_in_profile',
-            English:'Deep Learning Essentials with Keras https://www.credly.com/badges/7b107c50-e93b-4599-8f08-d30aa13fcf64/linked_in_profile'
+            Spanish:'Deep Learning Essentials with Keras',
+            English:'Deep Learning Essentials with Keras'
         },
         Campus:{
             Spanish:'Coursera con IBM',
@@ -611,8 +611,8 @@ export const Course = [
     },
     {
         Title:{
-            Spanish:'Deep Learning with Tensorflow https://www.credly.com/badges/a15a43cb-bced-464c-8d59-c0a05a990278/linked_in_profile',
-            English:'Deep Learning with Tensorflow https://www.credly.com/badges/a15a43cb-bced-464c-8d59-c0a05a990278/linked_in_profile'
+            Spanish:'Deep Learning with Tensorflow',
+            English:'Deep Learning with Tensorflow'
         },
         Campus:{
             Spanish:'Coursera con IBM',
@@ -632,8 +632,8 @@ export const Course = [
     },
     {
         Title:{
-            Spanish:'Deep Neural Networks with PyTorch https://www.credly.com/badges/a19a373e-ddb5-45a9-878f-cfd987d8e309/linked_in_profile',
-            English:'Deep Neural Networks with PyTorch https://www.credly.com/badges/a19a373e-ddb5-45a9-878f-cfd987d8e309/linked_in_profile'
+            Spanish:'Deep Neural Networks with PyTorch',
+            English:'Deep Neural Networks with PyTorch'
         },
         Campus:{
             Spanish:'Coursera con IBM',
@@ -653,8 +653,8 @@ export const Course = [
     },
     {
         Title:{
-            Spanish:'Machine Learning with Python https://www.credly.com/badges/edb8bc4b-fefb-4267-8619-1b2ef67fed8a/linked_in_profile',
-            English:'Machine Learning with Python https://www.credly.com/badges/edb8bc4b-fefb-4267-8619-1b2ef67fed8a/linked_in_profile'
+            Spanish:'Machine Learning with Python',
+            English:'Machine Learning with Python'
         },
         Campus:{
             Spanish:'Coursera con IBM',
@@ -674,8 +674,8 @@ export const Course = [
     },
     {
         Title:{
-            Spanish:'IBM AI Engineering Professional Certificate (V2) https://www.credly.com/badges/07c49a5a-9c1a-4d5f-a773-33bd06b7a6e6/linked_in_profile',
-            English:'IBM AI Engineering Professional Certificate (V2) https://www.credly.com/badges/07c49a5a-9c1a-4d5f-a773-33bd06b7a6e6/linked_in_profile'
+            Spanish:'IBM AI Engineering Professional Certificate (V2)',
+            English:'IBM AI Engineering Professional Certificate (V2)'
         },
         Campus:{
             Spanish:'Coursera con IBM',
