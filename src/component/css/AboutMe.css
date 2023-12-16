@@ -5,7 +5,7 @@
 }
 
 .AboutMe h1{
-	color: white;
+	color: #3C3A3A;
 	font-size: 55px;
 	text-transform: capitalize;
 	margin-bottom: 20px;
@@ -21,7 +21,7 @@
 }
 
 .AboutMe a, button{
-    color: aliceblue;
+    color: #3C3A3A;
     margin: 20px;
     text-align: center;
     font-size: xx-large;
@@ -38,43 +38,43 @@
 
 .MyName{
     margin-top: 2rem;
-    color: aliceblue;
+    color: #5A5A5A;
     text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
 }
 
 .MyBirthday{
     text-align: center;
-    color: aliceblue;
+    color: #5A5A5A;
     text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
 }
 
 .AboutMe h2{
-    color: aliceblue;
+    color: #3C3A3A;
     text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
 }
 
 .AboutMe h3{
-    color: beige;
+    color: #5A5A5A;
 }
 
 .AboutMe h5{
-    color: beige;
+    color: #5A5A5A;
     text-align: left;
 }
 
 .AboutMe label{
-    color: beige;
+    color: #1a1a1a;
     text-align: left;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .AboutMe p{
-    color: beige;
+    color: #5A5A5A;
     text-align: left;
 }
 .AboutMe li{
-    color: beige;
+    color: #5A5A5A;
     text-align: left;
     margin-left: 50px;
 }
@@ -126,6 +126,14 @@
     position: absolute;
     top:-1rem; left:-2.5rem;
 }
+.education:hover{
+	background-color: transparent;
+	transition: .4s;
+	border: 2px solid rgba(255, 0, 0, 0.8);
+	color: #3C3A3A;
+	cursor: pointer;
+}
+
 .education span{
     font-size: 1.2rem;
     color:aliceblue;
@@ -136,13 +144,22 @@
 .education h3{
     font-size: 2rem;
     padding: 1rem 0;
-    color:aliceblue;
+    color:#5A5A5A;
     padding-top: 1rem;
     font-weight: normal;
 }
 .education p{
     font-size: .8rem;
     color:#aaa;
+}
+
+.education img{
+    height: 150px;
+    width: 150px;
+}
+
+.education .bloack{
+    border-radius: 0%;
 }
 
 @keyframes showText{

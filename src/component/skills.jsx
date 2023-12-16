@@ -6,9 +6,9 @@ import {ProgrammingLanguages, SystemOP, SOFTWARE} from './js/data'
 import {YearsToNow} from './js/calculations'
 export const SkillsProcess = props => {
     return(
-        <div id='banner' className="container" onSubmit={(e) => e.preventDefault()}>
+        <div id='banner' className="container-fluid" onSubmit={(e) => e.preventDefault()}>
             <h1 >{props.languages === 'SPANISH' ? <><span>SISTEMA</span>{' '}OPERATIVO</>: 'OS'}</h1>
-            <div className="boxfind">
+            <div className="boxfind mt-3 p-2">
                 {SystemOP.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.system}
                         value={`${(YearsToNow(dato.year, dato.month, dato.day))} ${(props.languages === 'SPANISH' ? 'AÑOS' : 'YEARS')}`}
@@ -17,7 +17,7 @@ export const SkillsProcess = props => {
                 )}
             </div>
             <h1 ><span>SOFT</span>WARE</h1>
-            <div className="boxfind">
+            <div className="boxfind mt-3 p-2">
                 {SOFTWARE.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.software}
                         value={`${(YearsToNow(dato.year, dato.month, dato.day))} ${(props.languages === 'SPANISH' ? 'AÑOS' : 'YEARS')}`}
@@ -26,7 +26,7 @@ export const SkillsProcess = props => {
                 )}
             </div>
             <h1 >{props.languages === 'SPANISH' ? <><span>LENGUAJE</span>{' '}DE PROGRAMACIÓN</>: <><span>PROGRAMMING</span>{' '}LANGUAGE</>}</h1>
-            <div className="boxfind">
+            <div className="boxfind mt-3 p-2">
                 {ProgrammingLanguages.map((dato) => (
                     <ShowItem icon={dato.icons} title={dato.language}
                         value={`${(YearsToNow(dato.year, dato.month, dato.day))} ${(props.languages === 'SPANISH' ? 'AÑOS' : 'YEARS')}`}

@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
 
-.Experience {
-    text-align: center;
-}
-
 .Experience img{
     margin-top: 5rem;
     border-radius: 50%;
@@ -24,7 +20,7 @@
 }
 
 .Experience h1{
-    color: aliceblue;
+    color: #3C3A3A;
     text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 3px;
 }
 
@@ -34,7 +30,7 @@
 }
 
 .Experience h5{
-    color: beige;
+    color: #5A5A5A;
     text-align: left;
 }
 

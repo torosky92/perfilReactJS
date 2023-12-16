@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
 
 h1 {
-    color: white;
+    color: #3C3A3A;
 	font-size: 3.5rem;
 	letter-spacing: 1px;
 	cursor: pointer;
@@ -22,14 +22,15 @@ h1 {
 .box-container {
     padding:1rem;
     text-align: center;
+    color: #5A5A5A;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.7);
     border-radius: .5rem;
-    background: #1a1a1a;
+    background: #eae8e8;
     cursor: pointer;
 }
 
 .box-container:hover {
-    background: rgb(95, 94, 94);
+    background: #ccc;
     transition: .4s; 
 }
 
@@ -88,12 +89,12 @@ h1 {
 }
 .box-container p{
     margin: auto;
-    color: aliceblue;
+    color: #5A5A5A;
     font-size: 1rem;
 }
 .box-container label{
     margin: auto;
-    color: azure;
+    color: #5A5A5A;
     font-size:medium;
     border: 2px solid rgba(255, 0, 0, 0.8);
     padding: 5px;
@@ -103,7 +104,7 @@ h1 {
 
 .box-container h3{
     margin: auto;
-    color: aliceblue;
+    color: #3C3A3A;
     font-weight: normal;
     text-transform: uppercase;
 }

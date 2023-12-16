@@ -10,13 +10,9 @@
 span{
 	color: #f9004d;
 }
-.card-dark{
-  background-color: #282c34 !important;
-  color: whitesmoke !important;
-}
 
 .title{
-  color: lightGray !important;
+  color: #5A5A5A !important;
 }
 
 .App2 {
@@ -70,12 +66,12 @@ span{
 
 .Skill h1{
   text-align: center;
-  color: aliceblue;
+  color: #282c34;
   font-style: italic;
 }
 
 h4{
   text-align: center;
-  color: aliceblue;
+  color: #5A5A5A;
   font-style: italic;
 }

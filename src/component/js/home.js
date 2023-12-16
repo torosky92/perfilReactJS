@@ -1,13 +1,40 @@
 import perfil from '../img/perfil.png'
-import { SiGmail, SiMaildotru, SiLinkedin, SiInstagram, SiYoutube, SiGithub, SiTelegram } from "react-icons/si"
+import { SiMaildotru, SiLinkedin, SiYoutube, SiGithub } from "react-icons/si"
 export const HomeInformation ={
     Title:{
         Spanish:<>Soy <span>David A. Toro M.</span></>,
         English: <>I'm <span>David A. Toro M.</span></>,
     },
     Description:{
-        Spanish:'Estoy en la ciudad Envigado, Antioquia en Colombia basado en el desarrollo FullStack y en el área de IoT. Con una trayectoria de 3 años de experiencia en React (FrontEnd) y 7 años de experiencia en Python (BackEnd). Con habilidades en el área de automatización IoT, robótica, control, electrónica, diseño de impresiones 3D, PCB con fresadora CNC y grabado en láser. Con capacidad en trabajo en equipo, tolerante, dinámico, proactivo, líder, responsable, innovador, inquieto por el conocimiento y sociable.',
-        English:"I live in Envigado, Antioquia from Colombia based on FullStack development and in the area of IoT. With a trajectory of 3 years of experience in React (FrontEnd) and 7 years of Experience in Python (BackEnd). With skills in the area of ​​IoT automation, robotics, control, electronics, 3D print design, PCB with CNC milling and laser engraving. Capable of teamwork, tolerant, dynamic, proactive, leader, responsible, innovative, restless about knowledge and sociable.",
+        Spanish:<>
+            <p>
+                Desarrollador Backend con el lenguaje Python durante más de 7 años, con conocimientos en IoT, Machine Learning, DeepLearning, Base de datos relacionados (SQL) y no relacionados (redis).
+            </p>
+            <p>
+                Con conocimientos adicionales en electrónica, diseño 3D con la herramienta SolidWorks, Impresión 3D, Diseños de PCB con fresadora, Grabado CNC y automatización industrial.
+            </p>
+            <p>
+                Con capacidad en trabajo en equipo, tolerante, dinámico, proactivo, líder, responsable, innovador, inquieto por el conocimiento y sociable.
+            </p>
+            <p>
+                Me encuentro ubicado en la ciudad de Envigado, Antioquia en Colombia.
+            </p>
+        </>,
+        English:<>
+            <p>
+                Backend Developer with Python for more than 7 years, with knowledge in IoT, Machine Learning, DeepLearning, Related Databases (SQL) and Unrelated (NoSQL).
+            </p>
+            <p>
+                With additional knowledge in electronics, 3D design with the SolidWorks tool, 3D printing, PCB designs with a milling machine, CNC engraving and industrial automation.
+            </p>
+            <p>
+                With ability in teamwork, tolerant, dynamic, proactive, leader, responsible, innovative, interested in knowledge and sociable.
+            </p>
+            <p>
+                I'm located in the Envigado city, Antioquia from Colombia.
+            </p>
+            
+        </>
     },
     Photo:<img src={perfil} alt=""/>,
     Contact:[
@@ -24,22 +51,8 @@ export const HomeInformation ={
             text:'https://github.com/torosky92',
         },
         {
-            icon:<SiInstagram/>,
-            text:'https://www.instagram.com/torosky92/',
-        },
-    ],
-    WT:[
-        {
-            icon:<SiGmail/>,
-            text:'torosky92@gmail.com',
-        },
-        {
             icon:<SiMaildotru/>,
             text:'david-toro92@hotmail.com',
-        },
-        {
-            icon:<SiTelegram/>,
-            text:'+573008850830',
         }
     ],
     Whatsapp:'+573008850830',

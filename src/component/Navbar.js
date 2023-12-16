@@ -12,7 +12,6 @@ const Navbar = () => {
     }
     return(
         <nav class="navbar">
-			<h1 class="logo">Pro<span>file</span></h1>
 			<ul>
                 {languagesMain.map((dato) => (<li>
                     <div className={`sidebar__link ${ location.pathname === dato.link ? "sidebar__link active_menu_link":''}`}>

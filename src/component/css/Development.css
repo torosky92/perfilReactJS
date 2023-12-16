@@ -25,8 +25,12 @@
     animation: showText 1s linear;
 }
 .Development2 label{
-    color: aliceblue;
+    color: #3C3A3A;
     font-size: 1.5rem;
+}
+
+.Development h1{
+    color: #3C3A3A;
 }
 
 .Development2 h3{
@@ -36,7 +40,7 @@
 }
 
 .Development h5{
-    color: aliceblue;
+    color: #5A5A5A;
     text-align: left;
     padding: 1%;
 }
@@ -46,12 +50,18 @@
     display: inline-block;
 	padding: .1px 5px;
     margin: 5px;
-	color: aliceblue;
+	color: #5A5A5A;
 	text-decoration: none;
 	font-weight: bold;
     text-align: center;
     font-size: 2rem;
 	text-transform: capitalize;
+}
+
+.Development2 ul>li:hover{
+    transition: .4s;
+    color: crimson;
+    font-size: 4rem;
 }
 
 .Development2 img{
@@ -71,10 +81,10 @@
     margin-bottom: .7rem;
 }
 .Development2 iframe{
-    width: 35rem;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 15px 2px;
+    width: 55rem;
     height: 25rem;
-    align-items: center;
-    margin: auto;
 }
 
 @media only screen and (max-width: 690px){

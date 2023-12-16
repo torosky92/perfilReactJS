@@ -5,8 +5,26 @@ export const Experience = [
             English:'Python Developer',
         },
         Description:{
-            Spanish:'Encargado de realizar desarrollos en backend con python en toda la empresa utilizando las herramientas necesarias como Docker, Postgres, Flask, Django, scrapping con selenium, machine learning, Redis, AWS ECS2 y MongoDB. Analizando mejoras en todo los sistemas para optimizar procesos',
-            English:'Responsible for carrying out backend development with python throughout the company using the necessary tools such as Docker, Postgres, Flask, Django, scrapping with selenium, machine learning, Redis, AWS ECS2 and MongoDB. Analyzing improvements in all systems to optimize processes',
+            Spanish: <>
+                Encargado de realizar desarrollos en backend con python en toda la empresa
+                <ul>
+                    <li> Encargado de dar mantenimiento y mejoras en sistema desarrollado en Flask (Python), base de datos relacionales SQL (Postgres, BigQuery) y no relacionales NoSQL (Redis, MongoDB), con protocolos de comunicación JSON, API REST, Montaje del servicio en AWS EC2 con Docker, control de versión con Gitlab y github.</li>
+                    <li> Desarrollo de captar por medio de cámara el código de barras de las cedulas colombianas para leer todos los datos necesarios con Python y OpenCV, con API REST, control de versión con Gitlab y github.</li>
+                    <li> Desarrollo de apps de tableros de información de centros comerciales con Django (Python), con protocolos de comunicación JSON y API REST. Con base de datos SQL. Montaje del servicio en AWS EC2 con USWGI y NGINX, control de versión con Gitlab y github.</li>
+                    <li> Desarrollo de app con Django (Python), base de datos postgres y no relacionados Redis servidor AWS EC2 con USWGI y NGINX, control de versión con Gitlab y github.</li>
+                    <li> Desarrollo de web scrapping para la captura de datos relevantes a la necesidad del cliente por medio de Django y Selenium. Además, se ingresó el análisis de datos por medio de machine learning utilizando el concepto de Árbol de decisiones.</li>
+                </ul>
+            </>,
+            English:<>
+                Responsible for carrying out backend development with python throughout the company
+                <ul>
+                    <li> Responsible for providing maintenance and improvements to a system developed in Flask (Python), relational SQL database (Postgres, BigQuery) and non-relational NoSQL (Redis, MongoDB), with JSON communication protocols, REST API, assembly of the service in AWS EC2 with Docker, version control with Gitlab and github.</li>
+                    <li> Development of capturing the barcode of the Colombian ID cards by means of a camera to read all the necessary data with Python and OpenCV, with REST API, version control with Gitlab and github.</li>
+                    <li> Development of shopping center information board apps with Django (Python), with JSON communication protocols and REST API. With SQL database. Setting up the service on AWS EC2 with USWGI and NGINX, version control with Gitlab and github.</li>
+                    <li> App development with Django (Python), postgres database and unrelated Redis AWS EC2 server with USWGI and NGINX, version control with Gitlab and github.</li>
+                    <li>  Development of web scrapping to capture data relevant to the client's needs through Django and Selenium. In addition, data analysis was entered through machine learning using the Decision Tree concept.</li>
+                </ul>
+            </>
         },
         Factory:'Serempre',
         Places: 'Remoto central Bogota, Antioquia',

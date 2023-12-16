@@ -8,30 +8,27 @@
 }
 
 .image{
-    flex:1 1 42rem;
-    text-align: center;
+    margin-top: 9%;
+	container: ce;
 }
 
 .image img{
-    height: 25rem;
-    width: 25rem;
-    border-radius: 30% 80% 80% 30% / 40% 50% 80% 80%;
+    padding: 1%;
+    height: 22rem;
+    width: 22rem;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 4px 5px 0px rgba(0, 0, 0, 0.14);
 }
 
-.content {
-    flex:0.5 1.5 50rem;
-}
 .content h3{
-    color: aliceblue;
+    color: #3C3A3A;
     font-size: 2.5rem;
-    padding-bottom: .5rem;
-	padding-left: 2%;
-	padding-right: 2%;
+	text-align: center;
 	animation: showText 1s linear;
+	margin: 30px;
 }
 
 .content p{
-    color: aliceblue;
+    color: #5A5A5A;
     font-size: 1.5rem;
     padding:.1rem 0;
 }
@@ -49,6 +46,7 @@
 }
 .Home button:hover{
 	background-color: transparent;
+	color: #5A5A5A;
 	border: 2px solid rgba(255, 0, 0, 0.8);
 	cursor: pointer;
 }
@@ -57,17 +55,18 @@
 	background-color:rgba(255, 0, 0, 0.8);
 	color: white;
 	text-decoration: none;
-    margin: 20px;
+	margin: 20px;
 	border: 2px solid transparent;
 	font-weight: bold;
-    font-size: xx-large;
+	font-size: xx-large;
 	padding: 13px 30px;
 	border-radius: 30px;
-	transition: .4s; 
+	transition: .4s;
 }
 .Home a:hover{
 	background-color: transparent;
 	border: 2px solid rgba(255, 0, 0, 0.8);
+	color: #3C3A3A;
 	cursor: pointer;
 }
 
@@ -98,7 +97,6 @@
     .image img{
 		height: 15rem;
 		width: 15rem;
-		border-radius: 30% 80% 80% 30% / 40% 50% 80% 80%;
 	}
 	.content h3{
 		font-size: 2rem;
