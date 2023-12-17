@@ -32,7 +32,7 @@ export const Experience = [
             </>
         },
         Factory:'Serempre',
-        Places: 'Remoto central Bogota, Antioquia',
+        Places: 'Remoto central Bogota, Cundinamarca',
         icons:<>
             <li><p style={{'font-size': '2rem'}}><FaPython/></p></li>
             <li><p style={{'font-size': '2rem'}}><SiFlask/></p></li>
