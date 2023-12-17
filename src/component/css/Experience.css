@@ -136,6 +136,45 @@
     margin-top: 1rem;
 }
 
+.col-sm-5 {
+    width: calc(100% * 5 / 12); /* El ancho de una columna de Bootstrap en pantallas pequeñas */
+}
+
+.cardMim {
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 15px; /* Relleno interno */
+    box-shadow: #00000080 0 -1px 15px 0;
+    margin: auto;
+}
+
+/* Estilo para agregar margen superior de 4 unidades */
+.mt-4 {
+    margin-top: 1.5rem; /* Puedes ajustar el valor según tus necesidades */
+}
+
+.icons2 ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.icons2 ul>li{
+    list-style-type: none;
+    display: inline-block;
+	padding: .1px 5px;
+    margin: 5px;
+    font-size: 10rem;
+	text-transform: capitalize;
+    text-align: center;
+}
+
+.icons2 p {
+    color: #5A5A5A;
+	text-decoration: none;
+	font-weight: bold;
+    width: 6rem;
+}
+
 @keyframes showText2{
     0%{
         transform: translatey(-100%) scale(1,1);

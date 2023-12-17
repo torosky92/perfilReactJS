@@ -87,6 +87,27 @@
     height: 25rem;
 }
 
+.col-sm-5 {
+    width: calc(100% * 5 / 12); /* El ancho de una columna de Bootstrap en pantallas pequeñas */
+}
+
+.col-sm-6 {
+    width: calc(100% * 6 / 12); /* El ancho de una columna de Bootstrap en pantallas pequeñas */
+} 
+
+.cardMim {
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Esquinas redondeadas */
+    padding: 15px; /* Relleno interno */
+    box-shadow: #00000080 0 -1px 15px 0;
+    margin: 10px auto;
+}
+
+/* Estilo para agregar margen superior de 4 unidades */
+.mt-4 {
+    margin-top: 1.5rem; /* Puedes ajustar el valor según tus necesidades */
+}
+
 @media only screen and (max-width: 690px){
     .boxfind2 {
         display: grid;

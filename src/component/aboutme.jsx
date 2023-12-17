@@ -1,5 +1,4 @@
 import React, {useState} from "react"
-import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import './css/AboutMe.css'
 import {AboutMe, Likes, Course} from './js/aboutMe'
 import {YearsToNow, HowMonth} from './js/calculations'
@@ -62,11 +61,11 @@ const AboutMeProcess = props => {
                 <h1 className="Title mt-5">{props.languages === 'SPANISH' ? <><span>FORMACIÓN</span>{' '}ACADÉMICA</>: <><span>ACADEMIC</span>{' '}TRAINING</>}</h1>
                 <div className="row">
                     {AboutMe.Academic.map((dato) =>
-                        <div className="education col-sm-5 container card">
+                        <div className="education col-sm-5 container cardMim">
                             <i><IoDocumentAttachOutline/></i>
                             <h3>{props.languages === 'SPANISH' ? dato.Title.Spanish : dato.Title.English}</h3>
                             <span>{HowMonth(dato.DateInitial.month)}-{dato.DateInitial.year}{' - '}{HowMonth(dato.DateFinal.month)}-{dato.DateFinal.year}</span>
-                            <h5 className="mt-3">
+                            <h5 className="">
                                 <b style={{color:'crimson'}}>
                                     {'CAMPUS: '}
                                 </b>
@@ -85,11 +84,11 @@ const AboutMeProcess = props => {
                 <h1 className="Title container mt-5">{props.languages === 'SPANISH' ? 'CURSOS, CONCURSOS, DIPLOMADOS Y CONGRESOS': 'COURSES, COMPETITIONS, DIPLOMA AND CONFERENCES'}</h1>
                 <div className="row">
                     {Course.map((dato) => 
-                        <div className="education col-sm-5 container card mt-5 p-5">
+                        <div className="education col-sm-5 container cardMim">
                             <i><IoDocumentAttachOutline/></i>
                             <span>{HowMonth(dato.DateInitial.month)}-{dato.DateInitial.year}{' - '}{HowMonth(dato.DateFinal.month)}-{dato.DateFinal.year}</span>
                             <h3>{props.languages === 'SPANISH' ? dato.Title.Spanish : dato.Title.English}</h3>
-                            <a href={dato.url}>
+                            {dato.badges.length !== 0 && <a href={dato.url}>
                                 <div className="row container">
                                     {dato.badges.map((dato2) => 
                                             <div className="col-sm-3 container">
@@ -97,8 +96,8 @@ const AboutMeProcess = props => {
                                             </div>
                                     )}
                                 </div>
-                            </a>
-                            <h5 className="mt-3">
+                            </a>}
+                            <h5 className="">
                                 <b style={{color:'crimson'}}>
                                     {'CAMPUS: '}
                                 </b>
