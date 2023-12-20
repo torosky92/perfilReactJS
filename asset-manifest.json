@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/perfilReactJS/static/css/main.b4b8861f.chunk.css",
-    "main.js": "/perfilReactJS/static/js/main.75b82c18.chunk.js",
-    "main.js.map": "/perfilReactJS/static/js/main.75b82c18.chunk.js.map",
+    "main.css": "/perfilReactJS/static/css/main.ca14a882.chunk.css",
+    "main.js": "/perfilReactJS/static/js/main.521f8af3.chunk.js",
+    "main.js.map": "/perfilReactJS/static/js/main.521f8af3.chunk.js.map",
     "runtime-main.js": "/perfilReactJS/static/js/runtime-main.6b950c0a.js",
     "runtime-main.js.map": "/perfilReactJS/static/js/runtime-main.6b950c0a.js.map",
     "static/css/2.d3d1b499.chunk.css": "/perfilReactJS/static/css/2.d3d1b499.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.a6bb484d.chunk.js.map": "/perfilReactJS/static/js/3.a6bb484d.chunk.js.map",
     "index.html": "/perfilReactJS/index.html",
     "static/css/2.d3d1b499.chunk.css.map": "/perfilReactJS/static/css/2.d3d1b499.chunk.css.map",
-    "static/css/main.b4b8861f.chunk.css.map": "/perfilReactJS/static/css/main.b4b8861f.chunk.css.map",
+    "static/css/main.ca14a882.chunk.css.map": "/perfilReactJS/static/css/main.ca14a882.chunk.css.map",
     "static/js/2.085248f2.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.085248f2.chunk.js.LICENSE.txt",
     "static/media/CadeSimu.b2480c23.png": "/perfilReactJS/static/media/CadeSimu.b2480c23.png",
     "static/media/Computer_Vision_and_and_Image_Processing_Essentials.dc33c86d.png": "/perfilReactJS/static/media/Computer_Vision_and_and_Image_Processing_Essentials.dc33c86d.png",
@@ -49,7 +49,7 @@
     "static/js/runtime-main.6b950c0a.js",
     "static/css/2.d3d1b499.chunk.css",
     "static/js/2.085248f2.chunk.js",
-    "static/css/main.b4b8861f.chunk.css",
-    "static/js/main.75b82c18.chunk.js"
+    "static/css/main.ca14a882.chunk.css",
+    "static/js/main.521f8af3.chunk.js"
   ]
 }
