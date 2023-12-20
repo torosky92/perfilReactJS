@@ -14,7 +14,22 @@ const HomeProcess = props => {
                     </div>
                     <div className="image container col-auto">
                         {HomeInformation.Photo}
+                        <div className="row">
+                            <div style={{'margin':'15px'}}></div>
+                            <div className="col-sm-11 container-fluid">
+                                <a href={`https://drive.google.com/uc?export=download&id=1RnWRpvZN8tyQTX-oJ7S4uPFcOE5OnaSd`} download={'CV_david_toro.pdf'}>
+                                    CV {props.languages === 'SPANISH' ? 'ESPAÑOL': 'SPANISH'}
+                                </a>
+                            </div>
+                            <div style={{'margin':'15px'}}></div>
+                            <div className="col-sm-11 container-fluid">
+                                <a href={`https://drive.google.com/uc?export=download&id=1AtiA2apMqFNyRWw31n4JhoEfQEogIfTr`} download={'CV_david_toro.pdf'}>
+                                    CV {props.languages === 'SPANISH' ? 'INGLES': 'ENGLISH'}
+                                </a>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
                 <div className="row container mt-3">
                     <div className="content col-sm-4">
@@ -31,7 +46,9 @@ const HomeProcess = props => {
                         </div>
                     </div>
                 </div>
+                
             </div>
+            
             
             <Toaster position="bottom-right"/>
             {props.whatsapp}
