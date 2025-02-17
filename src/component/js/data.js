@@ -1,6 +1,6 @@
 
 import { SiRedis, SiMysql, SiArduino, SiAngular, SiTypescript, SiLabview, SiSiemens, SiMitsubishi, SiMongodb, SiLinux, SiWindows, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiMicrosoftword, SiMicrosoftvisio, SiVisualstudiocode } from "react-icons/si"
-import { FaHome, FaChartBar, FaChartPie, FaUserAlt, FaReact, FaCss3, FaHtml5, FaPython, FaGithubSquare, FaJs} from "react-icons/fa"
+import { FaHome, FaChartBar, FaChartPie, FaUserAlt, FaReact, FaCss3, FaHtml5, FaPython, FaGithubSquare, FaJs, FaDocker, FaAws} from "react-icons/fa"
 import cura from '../img/cura.ico'
 import eagle from '../img/eagle.ico'
 import tia from '../img/tia.ico'
@@ -306,19 +306,19 @@ export const ProgrammingLanguages = [
             },
             {
                 library: 'REDIS',
-                year: 2023,
+                year: 2021,
                 month: 1,
                 day: 1,
             },
             {
                 library: 'FLASK',
-                year: 2019,
-                month: 10,
+                year: 2018,
+                month: 8,
                 day: 1,
             },
             {
                 library: 'DJANGO',
-                year: 2020,
+                year: 2019,
                 month: 7,
                 day: 1,
             },
@@ -388,9 +388,66 @@ export const ProgrammingLanguages = [
                 month: 1,
                 day: 1,
             },
+            {
+                library: 'JWT',
+                year: 2019,
+                month: 1,
+                day: 1,
+            },
         ],
-        year: 2017,
+        year: 2018,
         month: 2,
+        day: 1,
+    },
+    {
+        language:'DOCKER',
+        icons:<FaDocker/>,
+        color:'#34A853',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[],
+        year: 2021,
+        month: 11,
+        day: 1,
+    },
+    {
+        language:'AWS',
+        icons:<FaAws/>,
+        color:'#34A853',
+        level:{
+            Spanish:'Intermedio',
+            English:'Intermediate',
+        },
+        library:[
+            {
+                library: 'EC2',
+                year: 2021,
+                month: 1,
+                day: 1,
+            },
+            {
+                library: 'RDS',
+                year: 2022,
+                month: 1,
+                day: 1,
+            },
+            {
+                library: 'S3',
+                year: 2022,
+                month: 1,
+                day: 1,
+            },
+            {
+                library: 'IAM',
+                year: 2022,
+                month: 1,
+                day: 1,
+            },
+        ],
+        year: 2021,
+        month: 11,
         day: 1,
     },
     {
@@ -501,7 +558,7 @@ export const ProgrammingLanguages = [
         library:[
             {
                 library: 'POSTGRES',
-                year: 2022,
+                year: 2021,
                 month: 7,
                 day: 1,
             },
@@ -544,7 +601,7 @@ export const ProgrammingLanguages = [
             English:'Intermediate',
         },
         library:[],
-        year: 2023,
+        year: 2022,
         month: 1,
         day: 1,
     },
