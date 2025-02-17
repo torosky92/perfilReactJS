@@ -446,7 +446,7 @@ export const ProgrammingLanguages = [
         day: 1,
     },
     {
-        language:'CSS3',
+        language:'CSS',
         icons:<FaCss3/>,
         color:'#3B5998',
         level:{
@@ -478,7 +478,7 @@ export const ProgrammingLanguages = [
         day: 1,
     },
     {
-        language:'HTML5',
+        language:'HTML',
         icons:<FaHtml5/>,
         color:'#F65314',
         level:{
