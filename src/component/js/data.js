@@ -411,8 +411,8 @@ export const ProgrammingLanguages = [
         icons:<SiAngular/>,
         color:'#ff0000',
         level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
+            Spanish:'Básico',
+            English:'Basic',
         },
         library:[],
         year: 2019,
@@ -437,8 +437,8 @@ export const ProgrammingLanguages = [
         icons:<SiTypescript/>,
         color:'#000080',
         level:{
-            Spanish:'Intermedio',
-            English:'Intermediate',
+            Spanish:'Básico',
+            English:'Basic',
         },
         library:[],
         year: 2018,
