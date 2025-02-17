@@ -17,6 +17,9 @@ export const Experience = [
                     <li> Desarrollo de app con Django (Python), base de datos postgres y no relacionados Redis servidor AWS EC2 con USWGI y NGINX, control de versión con Gitlab y github.</li>
                     <li> Desarrollo de web scrapping para la captura de datos relevantes a la necesidad del cliente por medio de Django y Selenium. Además, se ingresó el análisis de datos por medio de machine learning utilizando el concepto de Árbol de decisiones.</li>
                     <li> Comunicaciones entre APIS como Stripe, BC diplomas, APIFY, entre otras.</li>
+                    <li> Desarrollo de Modelos de ML para predección y precisión.</li>
+                    <li> Desarrollo de Chatbot con IA donde se genera la voz por medio de Elevenlabs y OpenAI.</li>
+                    <li> Desarrollo de generador de informes para el area de mercadeo, por medio de transcripción de videollamadas para convertir en chat y adicionalmente tomar encuestas para genrerar el informe con OpenAI.</li>
                 </ul>
             </>,
             English:<>
@@ -28,6 +31,9 @@ export const Experience = [
                     <li> App development with Django (Python), postgres database and unrelated Redis AWS EC2 server with USWGI and NGINX, version control with Gitlab and github.</li>
                     <li> Development of web scrapping to capture data relevant to the client's needs through Django and Selenium. In addition, data analysis was entered through machine learning using the Decision Tree concept.</li>
                     <li> Communications between APIS such as Stripe, BC diplomas, APIFY, among others.</li>
+                    <li> Development of ML Models for prediction and precision.</li>
+                    <li> Development of Chatbot with AI where the voice is generated through Elevenlabs and OpenAI.</li>
+                    <li> Development of a report generator for the marketing area, through transcription of video calls to convert into chat and additionally take surveys to generate the report with OpenAI.</li>
                 </ul>
             </>
         },
