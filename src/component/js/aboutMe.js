@@ -16,6 +16,17 @@ import ibmkeras from '../img/IBM_AI_-Deep_Learning_Essentials_with_Keras.png'
 import ibmmachine from '../img/Machine_Learning_with_Python.png'
 import ibmvision from '../img/Computer_Vision_and_and_Image_Processing_Essentials.png'
 
+import awsNetwork from '../img/aws-educate-getting-started-with-networking.png'
+import awsStorage from '../img/aws-educate-getting-started-with-storage.png'
+import awsDatabase from '../img/aws-educate-getting-started-with-databases.png'
+import awsSecurity from '../img/aws-educate-getting-started-with-security.png'
+import awsServerless from '../img/aws-educate-getting-started-with-serverless.png'
+import awsCloudOperations from '../img/aws-educate-getting-started-with-cloud-ops.png'
+import awsCompute from '../img/aws-educate-getting-started-with-compute.png'
+import awsCloud101 from '../img/aws-educate-introduction-to-cloud-101.png'
+import awsAI from '../img/aws-educate-introduction-to-generative-ai.png'
+import awsML from '../img/aws-educate-introduction-to-cloud-101.png'
+
 export const AboutMe ={
     Name:<>David A. <span>Toro M.</span></>,
     Date:{
@@ -898,6 +909,236 @@ export const Course = [
             year:2023,
             month:12,
             day:16
+        },
+    },
+    {
+        Title:{
+            Spanish:'AWS Educate Getting Started with Networking',
+            English:'AWS Educate Getting Started with Networking'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsNetwork} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:6
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:6
+        },
+    },
+    {
+        Title:{
+            Spanish:'AWS Educate Getting Started with Storage',
+            English:'AWS Educate Getting Started with Storage'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsStorage} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:6
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:6
+        },
+    },
+    {
+        Title:{
+            Spanish:'AWS Educate Getting Started with Databases',
+            English:'AWS Educate Getting Started with Databases'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsDatabase} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:7
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:7
+        },
+    },
+    {
+        Title:{
+            Spanish:'AWS Educate Getting Started with Security',
+            English:'AWS Educate Getting Started with Security'
+        },
+        url: '',
+        badges: [<img src={awsSecurity} alt=""/>],
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:10
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:10
+        },
+    },
+    {
+        Title:{
+            Spanish:'AWS Educate Getting Started with Serverless',
+            English:'AWS Educate Getting Started with Serverless'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsServerless} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:10
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:10
+        },
+    },
+    {
+        Title:{
+            Spanish:'AWS Educate Getting Started with Cloud Operations',
+            English:'AWS Educate Getting Started with Cloud Operations'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsCloudOperations} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:11
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:11
+        },
+    },
+    {
+        Title:{
+            Spanish:'AWS Educate Getting Started with Compute',
+            English:'AWS Educate Getting Started with Compute'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsCompute} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:11
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:11
+        },
+    },
+    {
+        Title:{
+            Spanish:'AWS Educate Getting Started with Cloud 101',
+            English:'AWS Educate Getting Started with Cloud 101'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsCloud101} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:11
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:11
+        },
+    },
+    {
+        Title:{
+            Spanish:'Introduction to Generative Artificial Intelligence',
+            English:'Introduction to Generative Artificial Intelligence'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsAI} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:11
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:11
+        },
+    },
+    {
+        Title:{
+            Spanish:'Machine Learning Foundations',
+            English:'Machine Learning Foundations'
+        },
+        Campus:{
+            Spanish:'Amazon Web Services (AWS)',
+            English:'Amazon Web Services (AWS)',
+        },
+        url: '',
+        badges: [<img src={awsML} alt=""/>],
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:11
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:11
         },
     }
 ]
