@@ -25,7 +25,7 @@ import awsCloudOperations from '../img/aws-educate-getting-started-with-cloud-op
 import awsCompute from '../img/aws-educate-getting-started-with-compute.png'
 import awsCloud101 from '../img/aws-educate-introduction-to-cloud-101.png'
 import awsAI from '../img/aws-educate-introduction-to-generative-ai.png'
-import awsML from '../img/aws-educate-introduction-to-cloud-101.png'
+import awsML from '../img/aws-educate-machine-learning-foundations.png'
 
 export const AboutMe ={
     Name:<>David A. <span>Toro M.</span></>,
@@ -1133,12 +1133,12 @@ export const Course = [
         DateInitial:{
             year:2025,
             month:3,
-            day:11
+            day:12
         },
         DateFinal:{
             year:2025,
             month:3,
-            day:11
+            day:12
         },
     }
 ]
