@@ -1,0 +1,145 @@
+/* Contenedor principal */
+.magazine-container {
+    background-color: transparent;
+    position: relative;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    perspective: 2000px; /* Efecto 3D */
+}
+
+/* Estructura de la revista */
+.magazine {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transform-origin: center;
+    position: relative;
+}
+
+/* Estilos de las páginas */
+.page {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    backface-visibility: hidden; /* Oculta la parte trasera */
+}
+
+/* Página izquierda (Texto y Tecnologías) */
+.left-page {
+    border-radius: 10px 0 0 10px;
+    background: #b3b3b3a4;
+    text-align: left;
+    color: #111;
+    padding: 30px;
+    left: 0;
+    transform-origin: right center; /* Punto de giro en el centro derecho */
+}
+
+/* Página derecha (Imagen o Video) */
+.right-page {
+    border-radius: 0 10px 10px 0;
+    background: white;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    transform-origin: left center; /* Punto de giro en el centro izquierdo */
+}
+
+/* Animación para pasar página a la derecha */
+.flip-right-anim {
+    animation: flipRight 1s forwards;
+}
+
+@keyframes flipRight {
+    0% { transform: rotateY(0); }
+    50% { transform: rotateY(-90deg); }
+    100% { transform: rotateY(-180deg); }
+}
+
+/* Animación para regresar la página a la izquierda */
+.flip-left-anim {
+    animation: flipLeft 1s forwards;
+}
+
+@keyframes flipLeft {
+    0% { transform: rotateY(0); }
+    50% { transform: rotateY(90deg); }
+    100% { transform: rotateY(180deg); }
+}
+
+/* Botones de navegación */
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev-btn {
+    left: -50px;
+}
+
+.next-btn {
+    right: -50px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background: #c70039;
+}
+
+.project-video iframe,
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video {
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.showVideo {
+    color: #111;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.showVideo:hover {
+    font-size: 24px;
+}
+
+.number-page {
+    display: flex;
+    position:absolute;
+    bottom:5px;
+    right: 25px;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    border-radius: 50%;
+    padding: 10px;
+    border: solid 1px #111;
+}
