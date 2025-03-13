@@ -156,8 +156,8 @@ h3 {
 /* 🔹 Iconos de Skills */
 .project-icon,
 .skill-icon {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
   margin-bottom: 10px;
 }
@@ -370,7 +370,7 @@ a.links-contact {
 .project-icons {
   display: flex;
   position:absolute;
-  bottom:5px;
+  bottom:40px;
   justify-content: flex-end;
   gap: 10px;
   list-style: none;
@@ -568,4 +568,148 @@ span {
   font-size: 22px;
   color: crimson;
   margin-top: 25px;
+}
+
+/* Asegurar que todo se ajuste bien en cualquier pantalla */
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Ajuste del `body` para que no haya overflow en móviles */
+body {
+  overflow-x: hidden;
+}
+
+/* Asegurar que imágenes y videos sean completamente responsivos */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ajustes de `html` para tamaños de fuente escalables */
+html {
+  font-size: 16px; /* Base */
+}
+
+@media (max-width: 1200px) {
+  html { font-size: 14px; } /* Reducir tamaño en pantallas más pequeñas */
+}
+
+@media (max-width: 768px) {
+  html { font-size: 12px; } /* Reducir más para móviles */
+}
+
+/* 🔹 Navbar */
+.navbar {
+  flex-wrap: wrap; /* Permite que los elementos se acomoden si no caben */
+}
+
+/* 🔹 Ocultar enlaces en móviles y mostrar menú hamburguesa */
+.menu-toggle {
+  display: none; /* Solo visible en móviles */
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* 🔹 Ajustes para móviles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Oculta los enlaces */
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #222;
+    padding: 10px 0;
+  }
+
+  .nav-links.show {
+    display: flex; /* Muestra el menú cuando se activa */
+  }
+
+  .menu-toggle {
+    display: block; /* Se muestra en móviles */
+  }
+}
+
+/* Contenedor general para evitar desbordes */
+.magazine-container {
+  width: 100%;
+  max-width: 900px; /* Evitar que sea muy ancho */
+  height: auto;
+  min-height: 500px;
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .magazine {
+    flex-direction: column; /* Cambia a una sola columna */
+    height: auto;
+  }
+
+  .page {
+    width: 100%;
+    height: auto;
+    position: relative; /* Evita que se sobrepongan */
+    transform: none !important; /* Desactiva el efecto de giro en pantallas pequeñas */
+  }
+}
+
+/* 🔹 Skills en grid adaptable */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+/* 🔹 Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5px;
+  }
+
+  .skill-card {
+    padding: 10px;
+  }
+}
+
+/* 🔹 Ajustar la cuadrícula en pantallas pequeñas */
+.experience-grid, .education-grid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .experience-grid, .education-grid {
+    grid-template-columns: 1fr; /* Una sola columna en móviles */
+  }
+}
+
+/* 🔹 Grid adaptable para badges */
+.badges-container {
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .badges-container {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  }
+
+  .badge-item img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* 🔹 Ajustar el tamaño del formulario */
+.contact form {
+  max-width: 90%;
+}
+
+@media (max-width: 768px) {
+  .contact form {
+    max-width: 100%;
+  }
 }

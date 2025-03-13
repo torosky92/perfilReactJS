@@ -23,7 +23,7 @@ export const Developments = [
             <li><SiFlask className="project-icon"/></li>
             <li><SiJavascript className="project-icon"/></li>
             <li><FaReact className="project-icon"/></li>
-            <li><h4 className="project-icon mt-3">MQTT</h4></li>
+            <li><h5 className="project-icon mt-1">MQTT</h5></li>
         </>,
         /*link:<div className="video">
             <a href='https://www.youtube.com/embed/VUmZI-VCtkg'  target="_blank" rel="noreferrer"><h3 className="showVideo">Ver Video</h3></a> 
@@ -85,7 +85,7 @@ export const Developments = [
             <li><SiFlask className="project-icon"/></li>
             <li><SiJavascript className="project-icon"/></li>
             <li><FaReact className="project-icon"/></li>
-            <li><h1 className="project-icon">MQTT</h1></li>
+            <li><h5 className="project-icon">MQTT</h5></li>
         </>,
         link:<div className="video">
             <a href='https://www.youtube.com/embed/VUmZI-VCtkg'  target="_blank" rel="noreferrer"><h3 className="showVideo">Ver Video 1</h3></a> 
@@ -119,8 +119,8 @@ export const Developments = [
             <li><SiFlask className="project-icon"/></li>
             <li><FaReact className="project-icon"/></li>
             <li><SiArduino className="project-icon"/></li>
-            <li><h4 className="project-icon mt-3">MQTT</h4></li>
-            <li><h4 className="project-icon mt-3">CNC</h4></li>
+            <li><spam className="project-icon">MQTT</spam></li>
+            <li><spam className="project-icon">CNC</spam></li>
         </>,
         link:<div className="video">
             <a href='https://www.youtube.com/embed/OZy3gHpK6qM'  target="_blank" rel="noreferrer"><h3 className="showVideo">Ver Video</h3></a> 
@@ -153,8 +153,8 @@ export const Developments = [
             <li><SiFlask className="project-icon"/></li>
             <li><FaReact className="project-icon"/></li>
             <li><SiArduino className="project-icon"/></li>
-            <li><h4 className="project-icon mt-3">MQTT</h4></li>
-            <li><h4 className="project-icon mt-3">CNC</h4></li>
+            <li><spam className="project-icon">MQTT</spam></li>
+            <li><spam className="project-icon">CNC</spam></li>
         </>,
         img: <img src={display} alt="Display Supermercados" className="project-img-show"/>,
         link:<div className="video">
@@ -182,7 +182,7 @@ export const Developments = [
     },
     {
         icons:<>
-            <li><h4 className="project-icon mt-3">ROS</h4></li>
+            <li><h5 className="project-icon mt-3">ROS</h5></li>
             <li><FaPython className="project-icon"/></li>
             <li><SiUbuntu className="project-icon"/></li>
             <li><SiArduino className="project-icon"/></li>

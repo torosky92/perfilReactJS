@@ -37,9 +37,7 @@ const Projects = ({ translations, language }) => {
                             <h3>{language === 'en' ? Developments[currentIndex].title.English : Developments[currentIndex].title.Spanish}</h3>
                             <p>{Developments[currentIndex].DateInitial.year}</p>
                             {Developments[currentIndex].description && <p className="cursive">{language === 'en' ? Developments[currentIndex].description.English : Developments[currentIndex].description.Spanish}</p>}
-                            <ul className="project-icons">
-                                {Developments[currentIndex].icons}
-                            </ul>
+                            
                         </div>
                     </div>
 
@@ -53,7 +51,10 @@ const Projects = ({ translations, language }) => {
                                 {Developments[currentIndex].link}
                             </div>
                         </div>
-                        <h5 className="number-page">{Number(currentIndex)+1}</h5>
+                        <ul className="project-icons">
+                            {Developments[currentIndex].icons}
+                        </ul>
+                        <h5 className="number-page mt-2">{Number(currentIndex)+1}</h5>
                     </div>
                 </div>
 

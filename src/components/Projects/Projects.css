@@ -114,7 +114,8 @@
 .video {
     display: grid;
     gap: 0.5rem;
-    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
     text-align: center;

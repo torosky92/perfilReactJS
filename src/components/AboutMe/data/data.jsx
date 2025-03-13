@@ -1,4 +1,4 @@
-import perfil from './img/perfil.png'
+import perfil from './img/perfil.jpg'
 
 export const AboutMee = {
     Date:{
