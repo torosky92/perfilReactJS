@@ -1,0 +1,140 @@
+/* 🔹 Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 15px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    color: crimson;
+    background-color: transparent;
+}
+
+.logo:hover {
+    font-size: 70px;
+    background-color: transparent;
+}
+
+/* 🔹 Botón de hamburguesa */
+.menu-toggle {
+    display: none; /* Oculto en pantallas grandes */
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* 🔹 Menú */
+.nav-links {
+    margin-top: -10px;
+    margin-bottom: -3px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav-links button.active {
+    color: crimson;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(173, 33, 61);
+}
+
+.nav-links button:hover {
+    background-color: transparent;
+    color: crimson;
+    font-size: 25px;
+    font-weight: bold;
+    transform: scale(1.01);
+}
+
+/* 🔹 Submenú */
+.submenu {
+    position: relative;
+}
+
+.submenu-content {
+    display: block;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.submenu-content li {
+    display: block;
+}
+
+.submenu-content button {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #333;
+}
+
+.submenu-content button:hover {
+    background-color: #f1f1f1;
+}
+
+/* 🔹 Estilos Responsive */
+@media (max-width: 768px) {
+    .submenu-content,
+    .navbar {
+        width: 100vw;
+    }
+    
+    .menu-toggle {
+        display: block; /* Mostrar botón de hamburguesa */
+    }
+
+    .nav-links {
+        display: none; /* Ocultar menú en móviles */
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100vw;
+        background-color: #222;
+        padding: 20px 0;
+    }
+
+    .nav-links.open {
+        display: flex; /* Mostrar cuando se active */
+    }
+
+    .nav-links li {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .logo {
+        font-size: 40px;
+    }
+
+    .logo:hover {
+        font-size: 50px;
+    }
+
+}

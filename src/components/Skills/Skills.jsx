@@ -1,6 +1,7 @@
 import React from "react";
 import { SOFTWARE, SystemOP, IALanguages, ProgrammingLanguages, ProgrammingFrameworks, DataBases, DevOpsLanguages } from "./data/data.jsx"; 
 import { YearsToNow } from '../calculations.jsx';
+import "./Skills.css";
 
 const Skills = props => {
     return (

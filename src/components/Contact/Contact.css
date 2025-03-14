@@ -1,0 +1,66 @@
+.contact h2 {
+    color: crimson;
+}
+
+.contact button {
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.contact button:hover {
+    background-color: rgb(233, 12, 56);
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact input, 
+.contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.links-item {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.links-item:hover {
+    transform: scale(1.05);
+}
+
+a.links-contact {
+    font-size: 40px;
+    text-decoration: none;
+    display: inline-flex;
+    color: #ccc;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}

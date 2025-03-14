@@ -182,7 +182,7 @@ export const Developments = [
     },
     {
         icons:<>
-            <li><h5 className="project-icon mt-3">ROS</h5></li>
+            <li><h5 className="project-icon mt-1">ROS</h5></li>
             <li><FaPython className="project-icon"/></li>
             <li><SiUbuntu className="project-icon"/></li>
             <li><SiArduino className="project-icon"/></li>

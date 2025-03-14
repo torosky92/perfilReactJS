@@ -64,7 +64,7 @@ export const AboutMee = {
         },
     ],
     Description:{
-        Spanish:<div class="profile-container"> 
+        Spanish:<div className="profile-container"> 
             <p>
                 Soy <strong>Ingeniero Mecánico</strong> con especialización en <strong>sistemas técnicos industriales</strong> y una sólida trayectoria de 
                 <strong>7 años en desarrollo Backend</strong> con <strong>Python</strong>. Experto en <strong>bases de datos relacionales y no relacionales (SQL y NoSQL)</strong>, 
@@ -99,7 +99,7 @@ export const AboutMee = {
 
             <h3>🚀 ¡Listo para aportar soluciones innovadoras y eficientes a tu equipo o proyecto!</h3>
         </div>,
-        English:<div class="profile-container">
+        English:<div className="profile-container">
         <p>
             I am a <strong>Mechanical Engineer</strong> specializing in <strong>industrial technical systems</strong> with a solid background of 
             <strong>7 years in Backend Development</strong> using <strong>Python</strong>. Expert in <strong>relational and non-relational databases (SQL & NoSQL)</strong>, 

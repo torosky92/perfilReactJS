@@ -1,0 +1,166 @@
+/* 🔹 Contenedor Principal */
+.aboutme {
+    padding: 40px 20px;
+}
+
+/* 🔹 Foto */
+.photo_perfil {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* 🔹 Información */
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    background: #222;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 120px;
+}
+
+.info-box h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.info-box h5 {
+    margin: 5px 0 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* 🔹 Idiomas y Áreas de Trabajo */
+.languages-container {
+    padding: 30px;
+    width: 90%;
+}
+
+.work-text-areak {
+    font-size: 18px;
+    color: #333;
+}
+
+.work-text-areak,
+.languages-container {
+    text-align: left;
+}
+
+/* 🔹 Descripción */
+.description-container {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+}
+
+.profile-container {
+    max-width: 100%;
+    margin: 0px auto;
+    margin-top: 0;
+    padding: 30px;
+    background: #555;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+
+/* 🌟 Titulos principales */
+.profile-container h2 {
+    text-align: left;
+    font-size: 28px;
+    color: whitesmoke;
+    margin-bottom: 15px;
+}
+
+/* 🔹 Subtítulos */
+.profile-container h3 {
+    text-align: left;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-top: 20px;
+}
+
+/* 📝 Párrafos */
+.profile-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+    text-align: left;
+}
+
+/* 🔹 Lista de habilidades */
+.profile-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.profile-container ul li {
+    font-size: 16px;
+    padding: 8px 0;
+    border-left: 4px solid crimson;
+    padding-left: 10px;
+    transition: all 0.3s ease-in-out;
+    text-align: left;
+}
+
+/* 🌟 Efecto Hover en la lista */
+.profile-container ul li:hover {
+    background: #b3b3b3;
+    padding-left: 15px;
+}
+
+/* 📍 Ubicación y disponibilidad */
+.profile-container p strong {
+    color: rgb(207, 192, 194);
+}
+
+/* 🚀 Mensaje final */
+.profile-container h3:last-of-type {
+    text-align: center;
+    font-size: 22px;
+    color: crimson;
+    margin-top: 25px;
+}
+
+/* 🔹 Responsive */
+@media (max-width: 768px) {
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-container {
+        padding: 10px;
+    }
+    
+    .info-box {
+        min-width: 200px;
+    }
+
+    .info-box h3 {
+        font-size: 30px;
+    }
+
+    .info-box h5 {
+        font-size: 20px;
+    }
+
+}

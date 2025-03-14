@@ -1,5 +1,7 @@
 import React from "react";
+
 import { Course } from "./data/data.jsx";
+import "./Certification.css";
 
 const Certifications = props => {
     return (

@@ -1,0 +1,59 @@
+.skills {
+    background-color: #1a1a1a; /* Fondo para diferenciar */
+}
+
+/* 🔹 Contenedor de Skills */
+.skills-container {
+    border: solid 1px #b3b3b3a4;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusta el tamaño automáticamente */
+    gap: 10px; /* Asegura espacio entre los elementos */
+    justify-content: center;
+}
+
+/* 🔹 Estilo de cada Skill */
+.skill-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+/* 🔹 Iconos de Skills */
+.skill-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.skill-card span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill-card small {
+    color: #ccc;
+}
+
+.language-card {
+    margin: 30px;
+    text-align: left;
+}
+
+/* 🔹 Para pantallas pequeñas */
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+        width: 100%;
+    }
+}
