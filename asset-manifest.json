@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/perfilReactJS/static/css/main.ee198830.chunk.css",
-    "main.js": "/perfilReactJS/static/js/main.e4c76075.chunk.js",
-    "main.js.map": "/perfilReactJS/static/js/main.e4c76075.chunk.js.map",
-    "runtime-main.js": "/perfilReactJS/static/js/runtime-main.8562140a.js",
-    "runtime-main.js.map": "/perfilReactJS/static/js/runtime-main.8562140a.js.map",
+    "main.css": "/perfilReactJS/static/css/main.d6114cb4.chunk.css",
+    "main.js": "/perfilReactJS/static/js/main.d2c44235.chunk.js",
+    "main.js.map": "/perfilReactJS/static/js/main.d2c44235.chunk.js.map",
+    "runtime-main.js": "/perfilReactJS/static/js/runtime-main.6b950c0a.js",
+    "runtime-main.js.map": "/perfilReactJS/static/js/runtime-main.6b950c0a.js.map",
     "static/css/2.42542aa8.chunk.css": "/perfilReactJS/static/css/2.42542aa8.chunk.css",
-    "static/js/2.a9b1cc73.chunk.js": "/perfilReactJS/static/js/2.a9b1cc73.chunk.js",
-    "static/js/2.a9b1cc73.chunk.js.map": "/perfilReactJS/static/js/2.a9b1cc73.chunk.js.map",
-    "static/js/3.5e439c4e.chunk.js": "/perfilReactJS/static/js/3.5e439c4e.chunk.js",
-    "static/js/3.5e439c4e.chunk.js.map": "/perfilReactJS/static/js/3.5e439c4e.chunk.js.map",
+    "static/js/2.52cb10a3.chunk.js": "/perfilReactJS/static/js/2.52cb10a3.chunk.js",
+    "static/js/2.52cb10a3.chunk.js.map": "/perfilReactJS/static/js/2.52cb10a3.chunk.js.map",
+    "static/js/3.a6bb484d.chunk.js": "/perfilReactJS/static/js/3.a6bb484d.chunk.js",
+    "static/js/3.a6bb484d.chunk.js.map": "/perfilReactJS/static/js/3.a6bb484d.chunk.js.map",
     "index.html": "/perfilReactJS/index.html",
     "static/css/2.42542aa8.chunk.css.map": "/perfilReactJS/static/css/2.42542aa8.chunk.css.map",
-    "static/css/main.ee198830.chunk.css.map": "/perfilReactJS/static/css/main.ee198830.chunk.css.map",
-    "static/js/2.a9b1cc73.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.a9b1cc73.chunk.js.LICENSE.txt",
+    "static/css/main.d6114cb4.chunk.css.map": "/perfilReactJS/static/css/main.d6114cb4.chunk.css.map",
+    "static/js/2.52cb10a3.chunk.js.LICENSE.txt": "/perfilReactJS/static/js/2.52cb10a3.chunk.js.LICENSE.txt",
     "static/media/CadeSimu.b2480c23.png": "/perfilReactJS/static/media/CadeSimu.b2480c23.png",
     "static/media/Computer_Vision_and_and_Image_Processing_Essentials.dc33c86d.png": "/perfilReactJS/static/media/Computer_Vision_and_and_Image_Processing_Essentials.dc33c86d.png",
     "static/media/DE - Flex Advanced.22218392.svg": "/perfilReactJS/static/media/DE - Flex Advanced.22218392.svg",
@@ -65,10 +65,10 @@
     "static/media/xampp.facb942c.png": "/perfilReactJS/static/media/xampp.facb942c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8562140a.js",
+    "static/js/runtime-main.6b950c0a.js",
     "static/css/2.42542aa8.chunk.css",
-    "static/js/2.a9b1cc73.chunk.js",
-    "static/css/main.ee198830.chunk.css",
-    "static/js/main.e4c76075.chunk.js"
+    "static/js/2.52cb10a3.chunk.js",
+    "static/css/main.d6114cb4.chunk.css",
+    "static/js/main.d2c44235.chunk.js"
   ]
 }
