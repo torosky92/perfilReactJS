@@ -65,7 +65,7 @@ const Navbar = (props) => {
                 onClick={() => scrollToSection(props.sections.inicio)}
                 className={`logo ${activeSection === "inicio" ? "active" : ""}`}
             >
-                DAVID TORO
+                DAVID A. TORO M.
             </button>
 
             {/* Botón de hamburguesa */}
