@@ -1,4 +1,4 @@
-import { SiMysql, SiJavascript, SiFlask, SiArduino, SiDjango, SiPostgresql, SiUbuntu, SiDocker, SiPandas, SiSelenium, SiRedis, SiCelery, SiOpencv, SiOpenai, SiElevenlabs, SiTwilio, SiStripe } from "react-icons/si"
+import { SiMysql, SiJavascript, SiFlask, SiArduino, SiDjango, SiPostgresql, SiUbuntu, SiDocker, SiPandas, SiSelenium, SiRedis, SiCelery, SiOpencv, SiOpenai, SiElevenlabs, SiTwilio, SiStripe, SiLabview } from "react-icons/si"
 import { FaReact, FaPython, FaAws} from "react-icons/fa"
 
 import matlab from '../../Skills/data/img/MATLAB.ico'
@@ -23,6 +23,7 @@ import Smart_Chat from './img/Smart_Chat.jpg'
 import Marketing_Report from './img/Marketing_Report.jpg'
 import ml_predict_validate from './img/ml_predict_validate.jpg'
 import Device_scales from './img/Device_scales.jpg'
+import dinamometro from './img/dinamometro.jpg'
 
 export const Developments = [
     {
@@ -94,6 +95,7 @@ export const Developments = [
         icons:<>
             <li><SiArduino className="project-icon"/></li>
             <li><FaPython className="project-icon"/></li>
+            <li><img src={SolidWorks} alt="" className="project-icon"/></li>
             <li><spam className="project-icon mt-1">MQTT</spam></li>
             <li><spam className="project-icon mt-1">SERIAL</spam></li>
         </>,
@@ -609,6 +611,34 @@ export const Developments = [
         description:{
             Spanish: 'Desarrollo estructural, electrico y programación. Por medio de diseño y planos mecanicos en SolidWorks se realizo todo el modelado para el funcionamiento de un dispositivo para servir jugos a empleados de empresa cada día tenga un jugo gratis y luego cada vez que se servia se le cobraba a final de mes, el circuito es controlado con arduino y con lectura de tarjetas RFID. El sistema en la parte de backend es en python con framework en Flask, el frontend es en Javascript con framework React js. La base de datos que se utilizo fue MySQL.',
             English:'Structural, electrical, and programming development. Using SolidWorks design and mechanical drawings, all the modeling was done for the operation of a device to serve juice to company employees. Each day, they receive a free juice, and each time they are served, they are charged at the end of the month. The circuit is controlled with Arduino and RFID card reader. The backend system is in Python with a Flask framework, and the frontend is in Javascript with a React js framework. The database used was MySQL.'
+        }
+    },
+    {
+        icons:<>
+            <li><SiArduino className="project-icon"/></li>
+            <li><SiLabview className="project-icon"/></li>
+            <li><img src={SolidWorks} alt="" className="project-icon"/></li>
+        </>,
+        img: <img src={dinamometro} alt="Dinamómetro de Moto" className="project-img-show"/>,
+        link:<div className="video">
+        </div>,
+        title:{
+            Spanish:'Dinamómetro de motos',
+            English:'Motorcycle dynamometer',
+        },
+        DateInitial:{
+            year: 2015,
+            month: 1,
+            day: 15,
+        },
+        DateFinal:{
+            year: 2015,
+            month: 5,
+            day: 20,
+        },
+        description:{
+            Spanish: 'Con un equipo se desarrollo toda la estructura de un dinamómetro para motos la cual la parte de electronica y de programación estaba encargado, desarrollado con LabView y Arduino.',
+            English:'A team developed the entire structure of a motorcycle dynamometer, with the electronics and programming handled using LabView and Arduino.'
         }
     },
     {
