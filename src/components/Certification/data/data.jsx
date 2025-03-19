@@ -31,6 +31,49 @@ import awsWB from './img/aws-educate-web-builder.png'
 export const Course = [
     {
         Title:{
+            Spanish:'DevOps and AI on AWS',
+            English:'DevOps and AI on AWS'
+        },
+        badges: [
+            {
+                title: 'Upgrading Apps with Generative AI',
+                icon: null,
+                url: 'https://coursera.org/share/648a07ba75720d58fe9db6c3b2c09aa5',
+            },
+            {
+                title: 'CI/CD for Generative AI Applications',
+                icon: null,
+                url: 'https://coursera.org/share/dcc91e8f19f6f43fb9f87db327badd70',
+            },
+            {
+                title: 'AIOps',
+                icon: null,
+                url: 'https://coursera.org/share/788ac1538bf42166c26cd9fbf8252e1e',
+            },
+            {
+                title: 'DevOps and AI on AWS',
+                icon: null,
+                url: 'https://coursera.org/share/32ef9cf1c4cf6b54834c78f76c418777',
+            }
+        ],
+        Campus:{
+            Spanish:'Coursera con AWS',
+            English:'Coursera with AWS',
+        },
+        Places: 'Medellín, Antioquia',
+        DateInitial:{
+            year:2025,
+            month:3,
+            day:18
+        },
+        DateFinal:{
+            year:2025,
+            month:3,
+            day:19
+        },
+    },
+    {
+        Title:{
             Spanish:'IBM AI Engineering Professional Certificate',
             English:'IBM AI Engineering Professional Certificate'
         },
@@ -367,17 +410,17 @@ export const Course = [
             {
                 title: 'Cerificado de Curso Crash Course on Python',
                 icon: null,
-                url: null,
+                url: 'https://coursera.org/share/486fcfa51f71dae69ddd4c609aae7671',
             },
             {
                 title: 'Cerificado de Curso Aspectos básicos de la asistencia técnica',
                 icon: null,
-                url: null,
+                url: 'https://coursera.org/share/b35d465a3e38c47e00d6bc42efb79b15',
             },
             {
                 title: 'Cerificado de Curso AWS Fundamentals: Going Cloud-Native',
                 icon: null,
-                url: null,
+                url: 'https://coursera.org/share/a10ba5078c740f5e09d2c79fcb0a85a4',
             },
         ],
         Campus:{
