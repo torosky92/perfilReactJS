@@ -2,3 +2,15 @@
     margin-top: 3%;
     padding: 4%;
 }
+
+.information-title {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .information-title {
+        display: block;
+        color: crimson;
+        font-size: 40px;
+    }
+}

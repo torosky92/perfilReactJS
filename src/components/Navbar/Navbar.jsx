@@ -70,7 +70,7 @@ const Navbar = (props) => {
 
             {/* Botón de hamburguesa */}
             <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
-                ☰
+                {menuOpen ? "✖" : "☰"}
             </button>
 
             {/* Menú principal */}

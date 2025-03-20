@@ -36,6 +36,7 @@ const Projects = ({ translations, language }) => {
 
     return (
         <div className="projects-container">
+            <h2 className="information-title">{translations[language]['proyectos']}</h2>
             <div className="magazine-container">
                 <div className="magazine">
                     

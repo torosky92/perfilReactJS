@@ -29,6 +29,7 @@ const ExperienceEducation = props => {
     return (
         <div className="experience-education-container">
             {/* 🔹 Experiencia */}
+            <h2 className="information-title">{props.translations[props.language]['experiencia']}</h2>
             <div className="carousel-container">
                 <div className="carousel-track">
                     {ExperienceAndEducation.Experience.slice(currentIndex, currentIndex + itemsPerPage).map((job, index) => (
@@ -59,7 +60,7 @@ const ExperienceEducation = props => {
 
             <div className="education-section">
                 {/* 🔹 Educación */}
-                <h2>{props.language === 'en' ? 'Education' : 'Educación'}</h2>
+                <h2 className="information-title">{props.language === 'en' ? 'Education' : 'Educación'}</h2>
                 <div className="education-grid">
                     {ExperienceAndEducation.Education.map((edu, index) => (
                         <div key={index} className="education-card">

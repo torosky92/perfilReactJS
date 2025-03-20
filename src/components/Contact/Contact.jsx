@@ -25,6 +25,7 @@ const Contact = props => {
 
     return (
         <div id="contact" className="contact">
+            <h2>{props.translations[props.language]['contacto_titulo']}</h2>
             {submitted ? (
                 <p className="success-message">
                     {props.translations[props.language]['enviado']}

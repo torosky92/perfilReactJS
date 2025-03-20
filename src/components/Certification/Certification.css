@@ -1,44 +1,33 @@
-.certifications-container {
-    text-align: center;
+/* 🔹 Acordeón: Por defecto abierto en desktop */
+.certification-accordion .accordion-header {
+    display: none;
 }
 
-.certifications-container h2 {
-    color: crimson;
-}
-
-.certifications-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.certification-card {
+.certification-accordion .accordion-content {
+    display: block;
     border: solid 1px #333;
     padding: 15px;
     border-radius: 8px;
-    text-align: center;
-    width: calc(33% - 10px);
     background: #222;
     color: white;
+    margin-bottom: 10px;
 }
 
-/* 🔹 Contenedor de Insignias */
+/* Badge Container Grid */
 .badges-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 📌 3 columnas en pantallas grandes */
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-top: 10px;
 }
 
-/* 🔹 Insignia Individual */
+/* Badge Item */
 .badge-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    border-radius: 5px;
     transition: transform 0.2s ease-in-out;
 }
 
@@ -51,11 +40,6 @@
     height: 100px;
 }
 
-.badge-item p {
-    margin-top: 5px;
-    font-size: 14px;
-}
-
 /* 📌 **RESPONSIVE**: En modo horizontal en móviles (pantallas anchas pero cortas) */
 @media (max-width: 850px) {
     .certification-card {
@@ -64,12 +48,12 @@
     }
 
     .badges-container {
-        grid-template-columns: repeat(2, 1fr); /* 📌 Regresa a 3 columnas en horizontal */
+        grid-template-columns: repeat(3, 1fr); /* 📌 Regresa a 3 columnas en horizontal */
     }
 
     .badge-item img {
-        width: 60px; /* 📌 Vuelve al tamaño normal */
-        height: 60px;
+        width: 100px; /* 📌 Vuelve al tamaño normal */
+        height: 100px;
     }
 
     .badge-item p {
@@ -90,6 +74,7 @@
 
     .badges-container {
         grid-template-columns: 1fr; /* 📌 Solo una insignia por fila en móviles */
+        width: 100%;
     }
 
     .badge-item {
@@ -98,11 +83,35 @@
     }
 
     .badge-item img {
-        width: 80px; /* 📌 Se reduce el tamaño de la imagen en móviles */
-        height: 80px;
+        width: 200px; /* 📌 Se reduce el tamaño de la imagen en móviles */
+        height: 200px;
     }
 
     .badge-item p {
-        font-size: 12px; /* 📌 Texto más pequeño en móviles */
+        font-size: 20px; /* 📌 Texto más pequeño en móviles */
+    }
+    
+    .accordion-icon {
+        color: #fff;
+        font-size: 18px;
+    }
+
+    /* Badge Carousel */
+    .badges-container {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .badge-item {
+        flex: 0 0 100%; /* Ocupa el 80% del ancho */
+        scroll-snap-align: center;
+    }
+
+    .badges-container::-webkit-scrollbar {
+        display: none;
     }
 }

@@ -26,6 +26,7 @@ const AboutMe = props => {
 
     return (
         <div id="aboutme" className="aboutme container-fluid">
+            <h2 className="information-title">{props.translations[props.language]['acerca_de_mi']}</h2>
             <div className="row">
                 {/* 📌 Sección de Foto y Datos */}
                 <div className="col-lg-5 col-md-6 col-sm-12 text-center">

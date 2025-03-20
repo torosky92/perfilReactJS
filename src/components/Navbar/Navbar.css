@@ -103,10 +103,12 @@
     .submenu-content,
     .navbar {
         width: 100vw;
+        align-items: start;
     }
     
     .menu-toggle {
         display: block; /* Mostrar botón de hamburguesa */
+        margin-top: -55px;
     }
 
     .nav-links {
@@ -132,6 +134,8 @@
     
     .logo {
         font-size: 40px;
+        margin: auto;
+        text-align: center;
     }
 
     .logo:hover {

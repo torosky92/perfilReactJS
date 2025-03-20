@@ -50,10 +50,113 @@
     text-align: left;
 }
 
+.swipe-overlay{
+    display: none;
+}
+
+.empty-card {
+    display: none; /* No mostrar en desktop */
+}
+
+.skills-accordion .accordion-header {
+    display: none; /* Desktop: normal */
+}
+
+.skills-accordion .accordion-content {
+    display: block;
+}
+
 /* 🔹 Para pantallas pequeñas */
 @media (max-width: 768px) {
+    .skills {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
     .skills-container {
-        grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
-        width: 100%;
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 0;
+        flex-wrap: nowrap;
+        padding: 0; /* ✅ Elimina padding interno */
+    }
+
+    .row, .col-sm-6, .col-sm-12 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .skills-accordion {
+        border: 1px solid #555;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .skills-accordion .accordion-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #333;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .skills-accordion .accordion-header h3 {
+        margin: 0;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .accordion-icon {
+        color: #fff;
+        font-size: 18px;
+        position: absolute;
+        right: 10px;
+    }
+
+    .skills-accordion .accordion-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+    }
+
+    .skills-accordion.open .accordion-content {
+        max-height: 1000px; /* alto grande para permitir scroll interno */
+        transition: max-height 0.5s ease;
+    }
+
+    .empty-card {
+        display: block;
+        min-width: 0;
+        flex: 0 0 10%; /* Ajusta el tamaño según el efecto que quieras */
+        height: 1px; /* Para que no ocupe altura */
+        background: transparent;
+        pointer-events: none;
+        scroll-snap-align: none;
+    }
+    
+    .skill-card {
+        min-width: 100%;
+        flex: 0 0 100%;
+        scroll-snap-align: start; /* ✅ Cambiamos a start para que siempre se alinee desde el inicio */
+        margin-right: 0;
+        border-radius: 0;
+    }
+
+    /* Quitamos el scrollbar */
+    .skills-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    .swipe-overlay {
+        display: block;
+        text-align: center;
+        color: #888;
+        font-size: 14px;
+        margin-top: 10px;
+        animation: swipeAnim 1s infinite;;
     }
 }
