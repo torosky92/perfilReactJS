@@ -67,17 +67,13 @@ const Projects = ({ translations, language }) => {
                         <h5 className="number-page mt-2">{Number(currentIndex)+1}</h5>
                     </div>
                 </div>
-
-                {/* Botones de navegación */}
-                <button className="prev-btn" onClick={() => prevProject(true)}>❮</button>
-                <button className="next-btn" onClick={() => nextProject(true)}>❯</button>
             </div>
 
             <div className="row container">
-                <button className="col-sm-5 prev-page" onClick={() => prevProject(false)}>❮</button>
-                <buton className="col-sm-5 next-page" onClick={() => nextProject(false)}>❯</buton>
+                <button className="prev-page" onClick={() => prevProject(true)}>‹ Pagina Anterior</button>
+                <button className="next-page" onClick={() => nextProject(true)}>Siguiente Pagina ›</button>
             </div>
-            
+
             <h5 className="cursive mt-1">{translations[language]['proyectos_mensaje']}</h5>
         </div>
     );

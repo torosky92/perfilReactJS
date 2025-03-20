@@ -62,28 +62,23 @@
 }
 
 .carousel-button {
-    background: #b3b3b3a4;
+    display:flex;
+    background: crimson;
     color: white;
     border: none;
     padding: 10px 15px;
-    cursor: pointer;
-    position: absolute;
-    z-index: 2;
     font-size: 24px;
-    border-radius: 50%;
-    transition: background 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -20px;
 }
 
 .carousel-button:hover {
-    background: rgba(0, 0, 0, 0.7);
-}
-
-.carousel-button.left {
-    left: 5px;
-}
-
-.carousel-button.right {
-    right: 5px;
+    background: rgba(230, 38, 38, 0.7);
 }
 
 /* 🔹 Iconos de experiencia organizados en filas */
@@ -140,11 +135,16 @@
     }
 
     .carousel-button {
-        font-size: 20px;
-        padding: 8px 12px;
+        width: 48%;
+        font-size: 18px;
     }
 
-    .experience-card, .education-card {
+    .experience-card {
+        padding: 15px;
+        margin: 0;
+    }
+
+    .education-card {
         padding: 12px;
         margin: 10px;
     }
@@ -156,11 +156,6 @@
 
 /* 📌 Móviles pequeños */
 @media (max-width: 480px) {
-    .carousel-button {
-        font-size: 18px;
-        padding: 6px 10px;
-    }
-
     .experience-card ul.icons-container {
         grid-template-columns: repeat(4, 1fr); /* 📌 4 iconos por fila */
     }

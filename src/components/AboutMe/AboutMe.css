@@ -52,12 +52,11 @@
     width: 90%;
 }
 
-.work-text-areak {
-    font-size: 18px;
-    color: #333;
+.work-text-area {
+    font-size: 25px;
 }
 
-.work-text-areak,
+.work-text-area,
 .languages-container {
     text-align: left;
 }

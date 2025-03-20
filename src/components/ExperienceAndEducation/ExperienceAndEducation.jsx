@@ -30,29 +30,31 @@ const ExperienceEducation = props => {
         <div className="experience-education-container">
             {/* 🔹 Experiencia */}
             <div className="carousel-container">
-                <button className="carousel-button left" onClick={prevSlide}>‹</button>
                 <div className="carousel-track">
                     {ExperienceAndEducation.Experience.slice(currentIndex, currentIndex + itemsPerPage).map((job, index) => (
-                    <div className="experience-card" key={index}>
-                        <h3>{job.Company}</h3>
-                        <h4>{props.language === 'en' ? job.Role.English : job.Role.Spanish}</h4>
-                        <h4>{job.Places}</h4>
-                        <p className="date">
-                            {job.DateInitial.year} - {job.DateFinal.year === 0 ? "Presente" : job.DateFinal.year}
-                        </p>
-                        <p className="description">{props.language === 'en' ? job.Description.English : job.Description.Spanish}</p>
-                        {/* Iconos en filas de a 4 */}
-                        {job.icons && job.icons.props && job.icons.props.children ? (
-                            <ul className="icons-container">
-                                {React.Children.map(job.icons.props.children, (icon, i) => (
-                                    <li key={i} className="icon">{icon}</li>
-                                ))}
-                            </ul>
-                        ) : null}
-                    </div>
+                        <div className="experience-card" key={index}>
+                            <h3>{job.Company}</h3>
+                            <h4>{props.language === 'en' ? job.Role.English : job.Role.Spanish}</h4>
+                            <h4>{job.Places}</h4>
+                            <p className="date">
+                                {job.DateInitial.year} - {job.DateFinal.year === 0 ? "Presente" : job.DateFinal.year}
+                            </p>
+                            <p className="description">{props.language === 'en' ? job.Description.English : job.Description.Spanish}</p>
+                            {/* Iconos en filas de a 4 */}
+                            {job.icons && job.icons.props && job.icons.props.children ? (
+                                <ul className="icons-container">
+                                    {React.Children.map(job.icons.props.children, (icon, i) => (
+                                        <li key={i} className="icon">{icon}</li>
+                                    ))}
+                                </ul>
+                            ) : null}
+                        </div>
                     ))}
                 </div>
-                <button className="carousel-button right" onClick={nextSlide}>›</button>
+            </div>
+            <div className="row container">
+                <button className="carousel-button" onClick={prevSlide}>‹ Anterior</button>
+                <button className="carousel-button" onClick={nextSlide}>Siguiente ›</button>
             </div>
 
             <div className="education-section">

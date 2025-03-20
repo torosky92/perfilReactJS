@@ -125,7 +125,8 @@
     }
 
     .nav-links li {
-        text-align: center;
+        padding-left: 20px;
+        text-align: left;
         width: 100%;
     }
     
